@@ -8,4 +8,4 @@ description:
 
 paginate: 10
 baseurl: /candida
-permalink: /:year/:title/
+permalink: /:year/:month/:title/
