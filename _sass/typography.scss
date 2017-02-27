@@ -105,3 +105,21 @@ ins {
 	padding: 0.125em 0.25em;
 	text-decoration: none;
 }
+
+%cjk {
+	font-style: normal;
+}
+
+i%cjk {
+	font-style: italic;
+}
+
+em%cjk {
+	text-emphasis: circle;
+}
+
+:lang(zh):not(:lang(zh-Latn)),
+:lang(ja):not(:lang(ja-Latn)),
+:lang(ko):not(:lang(ko-Latn)) {
+	@extend %cjk;
+}
