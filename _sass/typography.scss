@@ -123,3 +123,8 @@ em%cjk {
 :lang(ko):not(:lang(ko-Latn)) {
 	@extend %cjk;
 }
+
+q:lang(zh-Hant),
+q:lang(ja):not(:lang(ja-Latn)) {
+	quotes: "「" "」" "『" "』";
+}
