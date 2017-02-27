@@ -5,10 +5,10 @@ id: /
 {% include series.liquid posts=paginator.posts %}
 
 {% unless paginator.posts %}
-	<header><h1>Nothing Found</h1></header>
+	<header><h1>什麼都沒找到</h1></header>
 	<p>
-		It seems we can’t find what you’re looking for.
-		{% comment %} Perhaps searching can help. {% endcomment %}
+		沒有找到你要的內容。
+		{% comment %} 也許你可以搜尋一下看看。 {% endcomment %}
 	</p>
 {% endunless %}
 

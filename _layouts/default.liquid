@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,13 +28,13 @@
 			<p>{{ site.description }}</p>
 		</div>
 		<input hidden type="checkbox" id="menu-check">
-		<label for="menu-check">Menu</label>
+		<label for="menu-check">選單</label>
 		<nav>{{ menu | markdownify }}</nav>
 	</header>
 	<main>{{ content }}</main>
 	<aside>
 		<section>
-			<h2>Categories</h2>
+			<h2>分類</h2>
 			<ul>
 				{% assign categories = site.categories | sort %}
 				{% for category in categories %}
@@ -43,14 +43,14 @@
 			</ul>
 		</section>
 		<section class="tagcloud">
-			<h2>Tags</h2>
+			<h2>標籤</h2>
 			{% assign tags = site.tags | sort %}
 			{% for tag in tags %}
 				<a href="{{ site.baseurl }}/tag/{{ tag[0] | slugify }}">{{ tag[0] }}</a>
 			{% endfor %}
 		</section>
 		<section>
-			<h2>Recent posts</h2>
+			<h2>近期文章</h2>
 			<ul>
 				{% for post in site.posts limit: 5 %}
 					<li><a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -60,7 +60,7 @@
 	</aside>
 	<footer>
 		<nav>{{ menu | markdownify }}</nav>
-		<p>This blog is styled with <a rel="publisher" href="https://jdh8.github.io/sweet-16/">Sweet 16</a>.</p>
+		<p>本站使用 <a rel="publisher" lang="en" hreflang="en" href="https://github.com/jdh8/sweet-16/">Sweet 16</a> 佈景主題。</p>
 	</footer>
 </body>
 </html>

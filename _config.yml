@@ -1,9 +1,10 @@
 gems:
   - jekyll-paginate
 
-title: Sweet 16
+title: Candida
 description:
-    <a href="https://wordpress.org/themes/twentysixteen/" rel="external">Wordpress 2016 theme</a>
-    in <a href="https://jekyllrb.com/" rel="external">Jekyll</a>
+    <a href="https://jdh8.org">Integration by me</a> 的
+    <a href="https://jekyllrb.com/" rel="external">Jekyll</a> 測試版
 
 paginate: 10
+baseurl: /candida
