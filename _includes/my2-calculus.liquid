@@ -1,0 +1,11 @@
+{% assign dir = include.hash | prepend: "http://my2.tmu.edu.tw/sysdata/90/14290/doc/" | append: "/video/" %}
+{% assign obj = dir | cgi_escape | prepend: "http://my2.tmu.edu.tw/mp4.swf?url=" %}
+
+<video controls width="1024" src="{{ dir }}video_hd.mp4">
+	<object width="1024" data="{{ obj }}">
+		<param name="movie" value="{{ obj }}">
+		<param name="allowfullscreen" value="true">
+		<param name="wmode" value="direct">
+		<embed width="1024" src="{{ obj }}" allowfullscreen="true" wmode="direct">
+	</object>
+</video>
