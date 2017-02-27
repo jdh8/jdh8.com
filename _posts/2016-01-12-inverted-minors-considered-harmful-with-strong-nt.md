@@ -3,7 +3,7 @@ layout: post
 title: 反序低花搭配強無王可能有害
 tags: 低花 橋牌 無王 特約
 ---
-<style scoped>.redsuit { color: #d33 }</style>
+<link rel="stylesheet" href="{{ site.baseurl }}/style/bridge.css">
 
 我一直在研究 [Wbridge5][wbr5]
 這個優秀的橋牌程式。曾經我對於它收錄[反序低花][invm]卻預設停用感到不解。後來我得出一個結論。
