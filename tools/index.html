@@ -1,64 +1,52 @@
 ---
 layout: page
-title: Tools
+title: 工具
 ---
 <style scoped>
 pre {
 	white-space: pre-wrap;
 }
-#jax {
-	display: inline;
-}
 </style>
 <noscript>
-	<p class="notice">
-		This page is full of interaction, requiring
+	<p class="warning">
+		本頁面充滿互動設施，需要
 		<a href="https://zh.wikipedia.org/wiki/JavaScript" rel="external">JavaScript</a>
 		(<a href="http://www.ecma-international.org/publications/standards/Ecma-262.htm" rel="external">ECMAScript</a>)
-		to work.
+		才能正常運作。
 	</p>
 </noscript>
 <section>
-	<h2>Primality test</h2>
-	<p>
-		Please enter a positive integer less than 2<sup>32</sup>.
-		<a	rel="external"
-			href="https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test#Deterministic_variants_of_the_test"
-		>Deterministic Miller–Rabin primality test</a> is in use.
-		There is also
-		<a href="https://gist.github.com/jdh8/57c5f097e970bfe260e2">
-			implementation in C
-		</a>.
-	</p>
+	<h2>質數測試</h2>
+	<p>請輸入小於 2<sup>32</sup> 的正整數。我們使用<a href="https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test#Deterministic_variants_of_the_test" hreflang="en" rel="external">決定性 Miller–Rabin 質數測試</a>。我也寫了 <a href="https://gist.github.com/jdh8/57c5f097e970bfe260e2">C 語言實作</a>。</p>
 	<p><input required id="num" type="number" max="4294967295" min="0" step="1"></p>
 	<p id="result">&nbsp;</p>
 </section>
 <section>
-	<h2>Whiteboard</h2>
+	<h2>白板</h2>
 	<form id="board" name="board">
-		<textarea id="html" name="html" placeholder="Please enter some HTML 5 source.  It is placed in a &lt;div>."></textarea>
+		<textarea id="html" name="html" placeholder="請輸入 HTML 5 源碼。它會擺到 &lt;div> 裡面。"></textarea>
 		<p>
 			<label>
 				<input id="jax" name="jax" type="checkbox">
-				Enable <a href="http://www.mathjax.org/" rel="external">MathJax</a>
+				啟用 <a href="http://www.mathjax.org/" rel="external">MathJax</a> 排版
 			</label>
 		</p>
-		<p><button type="submit">Typeset</button></p>
+		<p><button type="submit">排版</button></p>
 	</form>
-	<p id="display">&nbsp;</p>
+	<div id="display">&nbsp;</div>
 </section>
 <section>
-	<h2>Asm.js minifier</h2>
+	<h2>Asm.js 縮小器</h2>
 	<p>
-		This minifier only mangle local names and concatenate adjacent variable
-		declarations.  Hence it preserves syntactic hints in
-		<a href="http://asmjs.org/" rel="external">asm.js</a>.
+		這個縮小器只會處理區域變數並連接相聯的變數宣告。這樣可以保存
+		<a href="http://asmjs.org/" rel="external">asm.js</a>
+		中的句法提示。
 	</p>
 	<input type="file" id="asm-file">
 	<pre><code id="minified-asm"></code></pre>
 </section>
-<script async src="https://cdn.mathjax.org/mathjax/2.5-latest/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
-<script async src="https://cdn.rawgit.com/jquery/esprima/2.7.0/esprima.js"></script>
+<script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/esprima/2.7.3/esprima.min.js"></script>
 <script async src="https://estools.github.io/esmangle/javascripts/esmangle.js"></script>
 <script async src="https://estools.github.io/escodegen/escodegen.browser.js"></script>
 <script async src="tools.js"></script>
