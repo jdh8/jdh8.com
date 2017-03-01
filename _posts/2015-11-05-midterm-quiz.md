@@ -1,5 +1,6 @@
 ---
 layout: post
+type: aside
 title: 2015 期中小考
 category: 微積分課程
 tags: 微分 線性回歸
