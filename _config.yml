@@ -9,3 +9,9 @@ description:
 paginate: 10
 baseurl: /candida
 permalink: /:year/:month/:title/
+
+defaults:
+  - scope:
+        path: ""
+    values:
+        author: jdh8

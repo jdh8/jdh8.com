@@ -62,4 +62,11 @@ footer > div::after {
 
 article > footer {
 	display: block;
+	padding-top: 0.125rem;
+}
+
+article > footer > .gravatar {
+	width: 3.0625rem;
+	height: auto;
+	margin: 0 0 0.4375rem;
 }
