@@ -4,6 +4,7 @@ type: aside
 title: 2015 期中小考
 category: 微積分課程
 tags: 微分 線性回歸
+permalink: /:year/:title/
 ---
 {% include my2-calculus.liquid hash="81befa2ad3fd0564" %}
 

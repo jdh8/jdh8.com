@@ -3,6 +3,7 @@ layout: post
 title: 2014 期中小考
 category: 微積分課程
 tags: 微分 線性回歸
+permalink: /:year/:title/
 ---
 醫學系的課程內容與其他系有很大的差異，因此考試排程也不同。目前尚未撰寫醫學系的詳解。
 
@@ -17,7 +18,7 @@ to find the derivative of
 
 本題同[去年的第 2 題][last]，只是用詞不同。
 
-[last]: {{ site.baseurl }}/2013/10/midterm-quiz/#/2013/10/midterm-quiz/2
+[last]: {{ site.baseurl }}/2013/midterm-quiz/#/2013/midterm-quiz/2
 
 ### 其他系第 2 題 ###
 ...  find the derivative of

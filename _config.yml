@@ -8,7 +8,7 @@ description:
 
 paginate: 10
 baseurl: /candida
-permalink: /:year/:month/:title/
+permalink: /:title/
 
 defaults:
   - scope:
