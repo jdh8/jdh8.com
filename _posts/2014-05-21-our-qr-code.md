@@ -1,5 +1,6 @@
 ---
 layout: post
+type: aside
 title: 本站 QR code
 categories: 資訊
 ---

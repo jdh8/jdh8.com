@@ -1,11 +1,8 @@
 gems:
   - jekyll-paginate
 
-title: Candida
-description:
-    <a href="https://jdh8.org">Integration by me</a> 的
-    <a href="https://jekyllrb.com/" rel="external">Jekyll</a> 測試版
-
+title: Integration by me
+description: 你們必曉得真理，真理必叫你們得以自由。
 paginate: 10
 baseurl: /candida
 permalink: /:title/
