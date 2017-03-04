@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 北醫 DNS 評測
-category: 資訊
+category: 電腦
 ---
 為了自由，我在校內常常使用 GNU/Linux 的作業系統們上網。然而當我使用學校預設的
 DNS 服務會發現有些網域名稱無法正常解析[^dns]。所以我希望能找到對校內來說最快的其他

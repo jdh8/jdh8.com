@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 線性回歸
+title: Linux
 ---

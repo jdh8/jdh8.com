@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 貼圖討論版開張
-category: 資訊
+category: 電腦
 tags: PHP Tinyboard nginx 自由軟體
 ---
 在同學的慫恿下，我架了[貼圖討論版][board]。[源碼擺在 GitHub][repo]

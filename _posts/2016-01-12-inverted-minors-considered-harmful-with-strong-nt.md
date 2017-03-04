@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 反序低花搭配強無王可能有害
+category: 數學
 tags: 低花 橋牌 無王 特約
 ---
 <link rel="stylesheet" href="{{ site.baseurl }}/style/bridge.css">

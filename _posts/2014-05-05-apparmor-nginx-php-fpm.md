@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 給 nginx 和 php-fpm 的 AppArmor 設定檔
-categories: 資訊
+category: 電腦
 tags: Linux nginx Ubuntu
 ---
 [AppArmor][AppArmor] 是 Ubuntu 預設的 [MAC][MAC] 模組。不像傳統 Unix 的

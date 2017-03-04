@@ -4,6 +4,8 @@ title: 反導函數與雅量
 category: 數學
 tags: 積分
 ---
+<script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+
 學妹拿了一張微積分考卷，白色的底子帶著黑色的題目與滿江紅的批閱。當她拿給我們看時，一位[數學愛好者][amateur]說：
 
 > 設 \\( y = \cos x \\)

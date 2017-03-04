@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 微分
+title: Ubuntu
 ---
