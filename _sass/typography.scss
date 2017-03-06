@@ -107,25 +107,19 @@ ins {
 	text-decoration: none;
 }
 
-%cjk {
-	font-style: normal;
+em:lang(zh),
+em:lang(ja),
+em:lang(ko) {
+	text-emphasis-style: filled;
 }
 
-i%cjk {
-	font-style: italic;
-}
-
-em%cjk {
-	text-emphasis: circle;
-}
-
-:lang(zh):not(:lang(zh-Latn)),
-:lang(ja):not(:lang(ja-Latn)),
-:lang(ko):not(:lang(ko-Latn)) {
-	@extend %cjk;
+em:lang(zh-Latn),
+em:lang(ja-Latn),
+em:lang(ko-Latn) {
+	text-emphasis-style: none;
 }
 
 q:lang(zh-Hant),
-q:lang(ja):not(:lang(ja-Latn)) {
+q:lang(ja) {
 	quotes: "「" "」" "『" "』";
 }
