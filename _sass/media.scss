@@ -21,3 +21,15 @@ video {
 		margin-bottom: 0;
 	}
 }
+
+.container {
+	position: relative;
+	height: 0;
+}
+
+.container > iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+}
