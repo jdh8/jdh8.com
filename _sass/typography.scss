@@ -119,19 +119,30 @@ ins {
 	text-decoration: none;
 }
 
-em:lang(zh),
-em:lang(ja),
-em:lang(ko) {
-	text-emphasis-style: filled;
-}
-
-em:lang(zh-Latn),
-em:lang(ja-Latn),
-em:lang(ko-Latn) {
-	text-emphasis-style: none;
-}
-
 q:lang(zh-Hant),
 q:lang(ja) {
 	quotes: "「" "」" "『" "』";
+}
+
+em%cjk {
+	-webkit-text-emphasis-style: filled;
+	text-emphasis-style: filled;
+}
+
+:lang(zh):not(:lang(zh-Latn)),
+:lang(ja):not(:lang(ja-Latn)),
+:lang(ko):not(:lang(ko-Latn)) {
+	@extend %cjk;
+}
+
+@supports not (font-synthesis: weight) {
+	:lang(zh) {
+		-webkit-text-emphasis-position: under;
+		-webkit-text-emphasis-position: under right;
+	}
+
+	blockquote%cjk,
+	em%cjk {
+		font-style: normal;
+	}
 }
