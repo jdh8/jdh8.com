@@ -1,4 +1,13 @@
-$sans: Montserrat, "Helvetica Neue", sans-serif;
+// 1. Avoid loading fonts from CDN.
+// 2. Prefer Taiwanese glyphs.
+$source:
+	"Source Han Sans TC", "Source Han Sans TW", "Noto Sans CJK TC",
+	"Source Han Sans SC", "Source Han Sans CN", "Noto Sans CJK SC",
+	"Source Han Sans",    "Source Han Sans JP", "Noto Sans CJK JP",
+	"Source Han Sans K",  "Source Han Sans KR", "Noto Sans CJK KR",
+	"Noto Sans TC", "Noto Sans SC", "Noto Sans JP", "Noto Sans KR";
+
+$sans: Montserrat, "Helvetica Neue", $source, sans-serif;
 
 html,
 input,
@@ -7,6 +16,10 @@ textarea {
 	font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
 	color: #1a1a1a;
 	line-height: 1.75;
+
+	@media screen {
+		font-family: Merriweather, Georgia, "Times New Roman", Times, $source, serif;
+	}
 }
 
 html {

@@ -4,6 +4,8 @@ title: 藍黨無理、學生無罪、協議可商、大陸無聊
 tags: 佔領國會 公民行動 太陽花學運
 author: masao
 ---
+<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosanssc.css">
+
 > 本文的作者是 Masao Syo，出處已河蟹。感謝[切開提供備份][backup]。
 
 [backup]: https://ask.fm/chekhai/answers/111186574786
