@@ -1,5 +1,5 @@
 {% for post in include.posts limit: site.paginate %}
-	<article class="post {{ post.class }}">
+	<article class="post {{ post.class }}"{% if post.lang %} lang="{{ post.lang }}"{% endif %}>
 		<header><h2><a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2></header>
 		<div class="content">{{ post.content }}</div>
 		<footer>
