@@ -1,6 +1,6 @@
 ---
 layout: post
-type: aside
+class: aside
 title: 本站 QR code
 category: 電腦
 ---

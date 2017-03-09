@@ -1,6 +1,6 @@
 ---
 layout: post
-type: aside
+class: aside
 title: 2015 臺北 101 跨年煙火
 ---
 從信義松仁路口以 Xperia Z1 拍攝。
