@@ -1,3 +1,3 @@
-Candida
-=======
-Candidate replacement of the Wordpress blog in jdh8.org
+Integration by me
+=================
+Chen-Pang He's Chinese blog.
