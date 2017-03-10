@@ -118,6 +118,14 @@ main > nav {
 	content: "Page ";
 }
 
+.pagination > strong:lang(zh)::before {
+	content: "第 ";
+}
+
+.pagination > strong:lang(zh)::after {
+	content: " 頁";
+}
+
 .pagination > .prev,
 .pagination > .next {
 	background-color: #1a1a1a;
