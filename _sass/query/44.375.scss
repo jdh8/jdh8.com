@@ -91,6 +91,8 @@ blockquote {
 }
 
 .pagination > strong::before,
-.pagination > strong::after {
+.pagination > strong::after,
+.pagination > strong:lang(zh)::before,
+.pagination > strong:lang(zh)::after {
 	content: none;
 }
