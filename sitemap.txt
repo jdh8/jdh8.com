@@ -1,0 +1,6 @@
+---
+---
+{{ site.posts | map: "url" | join: "
+" }}
+{{ site.html_pages | map: "url" | join: "
+" }}
