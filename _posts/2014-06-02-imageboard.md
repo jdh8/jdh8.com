@@ -3,6 +3,7 @@ layout: post
 title: 貼圖討論版開張
 category: 電腦
 tags: PHP Tinyboard nginx 自由軟體
+uuid: b6b4a0df-4d98-4cc3-9091-49c898cd786b
 ---
 在同學的慫恿下，我架了[貼圖討論版][board]。[源碼擺在 GitHub][repo]
 讓全世界幫我備份。不過目前我提交的多已匯入

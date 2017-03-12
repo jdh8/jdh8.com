@@ -3,6 +3,7 @@ layout: post
 title: 反導函數與雅量
 category: 數學
 tags: 積分
+uuid: 661e1a31-ba82-4488-8fce-b78d7d8fd125
 ---
 <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 

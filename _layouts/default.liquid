@@ -6,6 +6,7 @@
 
 	{% if page.id == "/" %}
 		<title>{{ site.title }} &ndash; {{ site.description | strip_html }}</title>
+		<link rel="alternate" type="application/atom+xml" href="{{ site.baseurl }}/feed.atom">
 	{% else %}
 		<title>{{ page.title }} &ndash; {{ site.title }}</title>
 	{% endif %}

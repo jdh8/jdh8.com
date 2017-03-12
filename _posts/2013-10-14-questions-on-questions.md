@@ -3,6 +3,7 @@ layout: post
 title: 問題的問題
 category: 數學
 tags: 邏輯
+uuid: 408984be-6ce1-441f-a086-fb4da4dc12c3
 ---
 1. 第一個答案是 A 的問題是哪一個？
 	1. 1

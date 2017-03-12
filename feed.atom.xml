@@ -1,0 +1,43 @@
+---
+permalink: /feed.atom
+---
+<!DOCTYPE feed [<!ENTITY nbsp "&#xa0;">]>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-Hant">
+	<title>{{ site.title }}</title>
+	<subtitle>{{ site.description | strip_html }}</subtitle>
+	<link href="{{ site.baseurl }}/" />
+	<id>urn:uuid:f4d85827-eab5-4bed-a093-58e848243d5f</id>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+
+	{% for post in site.posts %}
+		{% if post.uuid %}
+			<entry{% if page.lang %} xml:lang="{{ page.lang }}"{% endif %}>
+				<title>{{ post.title | xml_escape }}</title>
+				<link href="{{ site.baseurl }}{{ post.url }}" />
+				<id>urn:uuid:{{ post.uuid }}</id>
+				<updated>{{ post.date | date_to_xmlschema }}</updated>
+
+				{% if post.ext == ".md" %}
+					<content type="xhtml">
+						<div xmlns="http://www.w3.org/1999/xhtml">{{ post.content }}</div>
+					</content>
+				{% else %}
+					<content type="html">
+						<![CDATA[{{ post.content | replace: "]]>", "]]]]><![CDATA[>" }}]]>
+					</content>
+				{% endif %}
+
+				<author>
+					<name>{{ site.data.authors[page.author].name | xml_escape }}</name>
+
+					{% if page.author == "jdh8" %}
+						<uri>https://jdh8.github.io/author.rdf</uri>
+					{% endif %}
+				</author>
+			</entry>
+		{% endif %}
+	{% endfor %}
+</feed>
+{% comment %}
+vim: filetype=liquid
+{% endcomment %}

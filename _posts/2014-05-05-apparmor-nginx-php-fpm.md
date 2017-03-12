@@ -3,6 +3,7 @@ layout: post
 title: 給 nginx 和 php-fpm 的 AppArmor 設定檔
 category: 電腦
 tags: Linux nginx Ubuntu
+uuid: 5f16f866-f5a0-41a8-93f5-7453773b279b
 ---
 [AppArmor][AppArmor] 是 Ubuntu 預設的 [MAC][MAC] 模組。不像傳統 Unix 的
 [DAC][DAC]，AppArmor 設定檔列出什麼是行程*該*存取的。處於**強制模式**
