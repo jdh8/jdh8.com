@@ -8,6 +8,8 @@ permalink: /feed.atom
 	<link href="{{ site.baseurl }}/" />
 	<id>urn:uuid:f4d85827-eab5-4bed-a093-58e848243d5f</id>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<icon>{{ site.baseurl }}/favicon.ico</icon>
+	<rights>文字採用 CC BY-SA 4.0 授權。源碼採用 GPLv3+ 授權。</rights>
 
 	{% for post in site.posts %}
 		{% if post.uuid %}
@@ -16,6 +18,10 @@ permalink: /feed.atom
 				<link href="{{ site.baseurl }}{{ post.url }}" />
 				<id>urn:uuid:{{ post.uuid }}</id>
 				<updated>{{ post.date | date_to_xmlschema }}</updated>
+
+				{% for category in post.categories %}
+					<category term="{{ category | xml_escape }}" />
+				{% endfor %}
 
 				{% if post.ext == ".md" %}
 					<content type="xhtml">
