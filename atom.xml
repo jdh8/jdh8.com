@@ -1,0 +1,14 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>{{ site.title }}</title>
+	<subtitle>{{ site.description }}</subtitle>
+	<link href="https://jdh8.org/atom.xml" rel="self" />
+	<link href="/" />
+	<id>urn:uuid:f4d85827-eab5-4bed-a093-58e848243d5f</id>
+	<updated>2017-03-12T07:52:00Z</updated>
+</feed>
+{% comment %}
+vim: filetype=liquid
+{% endcomment %}
