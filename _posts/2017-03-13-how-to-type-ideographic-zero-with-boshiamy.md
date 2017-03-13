@@ -2,6 +2,7 @@
 layout: post
 title: 如何用嘸蝦米打出〇
 category: 電腦
+tags: 嘸蝦米 漢字 Unicode Big5
 date: 2017-03-13 14:04
 uuid: f4e7332c-151e-448e-8fad-e74b9e5cae4a
 ---
