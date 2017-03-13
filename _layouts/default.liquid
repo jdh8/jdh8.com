@@ -38,10 +38,6 @@
 	<main>{{ content }}</main>
 	<aside>
 		<section>
-			<h2>原始碼</h2>
-			<p>本站的原始碼公開於 <a href="https://github.com/jdh8/jdh8.org">GitHub 儲存庫</a>。</p>
-		</section>
-		<section>
 			<h2>分類</h2>
 			<ul>
 				{% assign categories = site.categories | sort %}
@@ -63,6 +59,13 @@
 				{% for post in site.posts limit: 5 %}
 					<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 				{% endfor %}
+			</ul>
+		</section>
+		<section>
+			<h2>其他</h2>
+			<ul>
+				<li><a href="{{ site.baseurl }}/feed.atom">訂閱貼文</a></li>
+				<li><a href="https://github.com/jdh8/jdh8.org">本站原始碼</a></li>
 			</ul>
 		</section>
 	</aside>
