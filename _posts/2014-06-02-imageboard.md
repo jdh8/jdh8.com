@@ -39,7 +39,7 @@ Tinyboard/vichan 的特點
 Tinayboard 給閱聽人跑的程式只有 [post.php][post] 一支，給職員的只有
 [mod.php][mod] 一支，其他都是靜態資源。他們只在閱聽人貼文及職員修改設定時重建
 (<span lang="en" translate="no">rebuild</span>)
-網站------重新產生靜態網頁。職員在修改設定時，可能因為網站未重建，新設定尚未生效。職員可於
+網站⸺重新產生靜態網頁。職員在修改設定時，可能因為網站未重建，新設定尚未生效。職員可於
 `GET /mod.php?/rebuild` 的頁面中重建網站，讓閱聽人看見更新的資源。
 
 [mod]: https://github.com/savetheinternet/Tinyboard/blob/master/mod.php
