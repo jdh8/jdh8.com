@@ -3,7 +3,8 @@ layout: post
 title: 如何用嘸蝦米打出〇
 category: 電腦
 tags: 嘸蝦米 漢字 Unicode Big5
-date: 2017-03-13 14:04
+date: 2017-03-14 15:12
+published: 2017-03-13 14:04
 uuid: f4e7332c-151e-448e-8fad-e74b9e5cae4a
 ---
 [嘸蝦米][boshiamy]從〇到十都是一碼字。取 O 就可以打出<q>〇</q>了。
@@ -11,16 +12,8 @@ uuid: f4e7332c-151e-448e-8fad-e74b9e5cae4a
 事情不是憨人想的這麼簡單。
 
 實際在 Unicode 查碼網站查詢用嘸蝦米打出來的<q>○</q>其實是空心圓圈
-
-○
-: U+25CB WHITE CIRCLE
-{: lang="en"}
-
-而不是漢字<q>〇</q>。
-
-〇
-: U+3007 IDEOGRAPHIC NUMBER ZERO
-{: lang="en"}
+(U+25CB <small lang="en" class="unicode-name">WHITE CIRCLE</small>)
+而不是漢字<q>〇</q>(U+3007 <small lang="en" class="unicode-name">IDEOGRAPHIC NUMBER ZERO</small>)
 
 為什麼會用錯誤的<q>○</q>代替漢字<q>〇</q>呢？這也不是嘸蝦米願意的。過去台灣使用的中文編碼是 Big5，當初 1970 年的溪頭會議就堅決把<q>〇</q>當成符號而不是字，因此也就只收錄符號<q>○</q>。在嘸蝦米輸入法設計的時候，Unicode 尚未興盛，當然就是收錄 Big5 中的<q>○</q>了。
 
