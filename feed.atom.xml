@@ -11,6 +11,11 @@ permalink: /feed.atom
 	<icon>{{ site.baseurl }}/favicon.ico</icon>
 	<rights>文字採用 CC BY-SA 4.0 授權。源碼採用 GPLv3+ 授權。</rights>
 
+	<author>
+		<name>何震邦</name>
+		<uri>https://jdh8.github.io/author.rdf</uri>
+	</author>
+
 	{% for post in site.posts %}
 		{% if post.uuid %}
 			<entry{% if page.lang %} xml:lang="{{ page.lang }}"{% endif %}>
@@ -34,13 +39,11 @@ permalink: /feed.atom
 					</content>
 				{% endif %}
 
-				<author>
-					<name>{{ site.data.authors[page.author].name | xml_escape }}</name>
-
-					{% if page.author == "jdh8" %}
-						<uri>https://jdh8.github.io/author.rdf</uri>
-					{% endif %}
-				</author>
+				{% if post.author != page.author %}
+					<author>
+						<name>{{ site.data.authors[post.author].name | xml_escape }}</name>
+					</author>
+				{% endif %}
 			</entry>
 		{% endif %}
 	{% endfor %}
