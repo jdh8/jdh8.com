@@ -23,7 +23,7 @@ uuid: d7d3fb13-083d-4a90-8198-eb55abe8def5
 : [陳建宇《美國 <span lang="en">ACGME Milestones</span> 之導入與建置⸺以麻醉科為例》](https://drive.google.com/file/d/0BxUY0Bm_YI1gWkJ4VUFzaGNiXzQ/view)
 
 學術討論 @<time>2017-03-17</time>
-: [倪衍玄《糞土黃金》](https://drive.google.com/file/d/0BxUY0Bm_YI1gQm5sMV9mdzVOQkU/view)
+: [倪衍玄《糞土黃金》](https://drive.google.com/file/d/0BxUY0Bm_YI1gQm5sMV9mdzVOQkU/view)（[影片](http://my2.tmu.edu.tw/b101100025/doc/130053)）
 
 *[ACGME]: Accreditation Council for Graduate Medical Education
 *[PDF]: Portable Document Format
