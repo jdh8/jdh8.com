@@ -16,7 +16,7 @@ uuid: d7d3fb13-083d-4a90-8198-eb55abe8def5
 血液腫瘤科 @<time>2017-03-14</time>
 : [陳博明 <q lang="en">Oncologic emergencies</q>](https://drive.google.com/file/d/0BxUY0Bm_YI1gU2c5LXM0SUhtTTA/view)
 
-胸腔科 @<time>2017-03-14</time>
+胸腔內科 @<time>2017-03-14</time>
 : [吳宗翰《胸腔 X 光片基本判讀》](https://drive.google.com/file/d/0BxUY0Bm_YI1gZUhZV1lUZEFUVkU/view)
 
 麻醉科 @<time>2017-03-16</time>
