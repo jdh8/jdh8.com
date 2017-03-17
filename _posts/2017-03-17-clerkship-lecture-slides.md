@@ -2,7 +2,7 @@
 layout: post
 title: Clerkship 懶人包
 category: 醫學
-date: 2017-03-16 09:31
+date: 2017-03-17 08:52
 published: 2017-03-13 10:31
 uuid: d7d3fb13-083d-4a90-8198-eb55abe8def5
 ---
@@ -21,6 +21,9 @@ uuid: d7d3fb13-083d-4a90-8198-eb55abe8def5
 
 麻醉科 @<time>2017-03-16</time>
 : [陳建宇《美國 <span lang="en">ACGME Milestones</span> 之導入與建置⸺以麻醉科為例》](https://drive.google.com/file/d/0BxUY0Bm_YI1gWkJ4VUFzaGNiXzQ/view)
+
+學術討論 @<time>2017-03-17</time>
+: [倪衍玄《糞土黃金》](https://drive.google.com/file/d/0BxUY0Bm_YI1gQm5sMV9mdzVOQkU/view)
 
 *[ACGME]: Accreditation Council for Graduate Medical Education
 *[PDF]: Portable Document Format
