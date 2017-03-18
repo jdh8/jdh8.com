@@ -7,7 +7,7 @@ uuid: a240cb64-2a99-4729-bd82-480b87e0042d
 ---
 使用巢狀類別 (nested class) 可以達到類似的效果。因為我們不需要這些類別的實例 (instance)，所以只需要宣告 (declaration)，不需要定義 (definition)。
 
-~~~ cpp
+```cpp
 struct Color
 {
     class Red;
@@ -29,4 +29,4 @@ struct hex<Color::Green>
 template<>
 struct hex<Color::Blue>
 { enum { value = 0x0000ff }; };
-~~~
+```
