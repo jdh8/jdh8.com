@@ -1,27 +1,3 @@
-@font-face {
-	font-family: Symbola;
-	src: local(Symbola), url(../fonts/Symbola.woff);
-}
-
-@font-face {
-	font-family: Symbola;
-	font-style: italic;
-	src: local(Symbola), url(../fonts/Symbola.woff);
-}
-
-@font-face {
-	font-family: Symbola;
-	font-weight: bold;
-	src: local(Symbola), url(../fonts/Symbola.woff);
-}
-
-@font-face {
-	font-family: Symbola;
-	font-style: italic;
-	font-weight: bold;
-	src: local(Symbola), url(../fonts/Symbola.woff);
-}
-
 // 1. Avoid loading fonts from CDN.
 // 2. Prefer Taiwanese glyphs.
 $source:
@@ -31,13 +7,13 @@ $source:
 	"Source Han Sans K",  "Source Han Sans KR", "Noto Sans CJK KR",
 	"Noto Sans TC", "Noto Sans SC", "Noto Sans JP", "Noto Sans KR";
 
-$sans: Montserrat, "Helvetica Neue", $source, sans-serif, Symbola;
+$sans: Montserrat, "Helvetica Neue", $source, sans-serif;
 
 html,
 input,
 select,
 textarea {
-	font-family: Merriweather, Georgia, "Times New Roman", Times, serif, Symbola;
+	font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
 	color: #1a1a1a;
 	line-height: 1.75;
 
