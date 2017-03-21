@@ -2,7 +2,7 @@
 layout: post
 title: Clerkship 懶人包
 category: 醫學
-date: 2017-03-20 12:44
+date: 2017-03-22 00:31
 published: 2017-03-13 10:31
 uuid: d7d3fb13-083d-4a90-8198-eb55abe8def5
 ---
@@ -27,6 +27,15 @@ uuid: d7d3fb13-083d-4a90-8198-eb55abe8def5
 
 學術討論 @<time>2017-03-17</time>
 : [倪衍玄《糞土黃金》](https://drive.google.com/file/d/0BxUY0Bm_YI1gQm5sMV9mdzVOQkU/view)（[影片](http://my2.tmu.edu.tw/b101100025/doc/130053)）
+
+### 案例討論 🔒###
+此處只列出日期和講者，因為講題可能包含病人姓名，應保密。
+
+* [顏平、林易霖、熊良鈞](https://drive.google.com/file/d/0BxUY0Bm_YI1gRVhTZk5PdERBWlk/view) <time>2017-01-17</time>
+* [傅皓聲](https://drive.google.com/file/d/0BxUY0Bm_YI1gNi1IOHlTaXlQZk0/view) <time>2017-02-07</time>
+* [陳雁捷](https://drive.google.com/file/d/0BxUY0Bm_YI1gLTljREVISk5LOVE/view) <time>2017-02-21</time>
+* [林欣穎](https://drive.google.com/file/d/0BxUY0Bm_YI1geDBvWVpwVEgzN2M/view) <time>2017-03-13</time>
+* [羅皓瑀](https://drive.google.com/file/d/0BxUY0Bm_YI1gbndpWVFidl9USmc/view) <time>2017-03-20</time>
 
 *[ACGME]: Accreditation Council for Graduate Medical Education
 *[PDF]: Portable Document Format
