@@ -7,12 +7,12 @@
 	{% assign structure = page.url | split: "/" | shift %}
 
 	{% if structure == empty %}
-		<title>{{ site.title }} &ndash; {{ site.description | strip_html }}</title>
+		<title>{{ site.title }} – {{ site.description | strip_html }}</title>
 		<link rel="alternate" type="application/atom+xml" href="{{ site.baseurl }}/feed.atom">
 	{% elsif structure[0] == "page" %}
-		<title>{{ site.title }} &ndash; 第 {{ structure[1] }} 頁 &ndash; {{ site.description | strip_html }}</title>
+		<title>{{ site.title }} – 第 {{ structure[1] }} 頁 – {{ site.description | strip_html }}</title>
 	{% else %}
-		<title>{{ page.title }} &ndash; {{ site.title }}</title>
+		<title>{{ page.title }} – {{ site.title }}</title>
 	{% endif %}
 
 	<link rel="canonical" href="https://jdh8.org{{ page.url }}">
@@ -75,7 +75,11 @@
 	</aside>
 	<footer>
 		<nav class="menu">{{ menu | markdownify }}</nav>
+<<<<<<< HEAD
 		<p>本站使用 <a rel="publisher" lang="en" hreflang="en" href="https://github.com/jdh8/sweet-16/">Sweet 16</a> 佈景主題。</p>
+=======
+		<p>This blog is styled with <a rel="publisher" href="https://github.com/jdh8/sweet-16/">Sweet 16</a>.</p>
+>>>>>>> 3b1dde8c2adc7841871d8504df4f0757b9fe1b08
 	</footer>
 </body>
 </html>
