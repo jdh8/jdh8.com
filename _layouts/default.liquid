@@ -21,15 +21,8 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:,i,b,bi,900,900i%7CMontserrat:,i,b,bi,900,900i%7CInconsolata:,b">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosanstc.css">
 	<link rel="stylesheet" href="{{ site.baseurl }}/style/main.css">
-
-	<style>
-		nav a[href="{{ site.baseurl }}{{ page.url }}"] {
-			font-weight: 700;
-		}
-	</style>
 </head>
 <body>
-	{% capture menu %}{% include menu.md %}{% endcapture %}
 	<header>
 		<div class="brand">
 			<h1><a href="{{ site.baseurl }}/" rel="home">{{ site.title }}</a></h1>
@@ -37,7 +30,7 @@
 		</div>
 		<input hidden type="checkbox" id="ballot">
 		<label class="toggle" for="ballot">選單</label>
-		<nav class="menu">{{ menu | markdownify }}</nav>
+		<nav class="menu">{% include menu.liquid list=site.data.menu %}</nav>
 	</header>
 	<main>{{ content }}</main>
 	<aside>
@@ -74,12 +67,8 @@
 		</section>
 	</aside>
 	<footer>
-		<nav class="menu">{{ menu | markdownify }}</nav>
-<<<<<<< HEAD
+		<nav class="menu">{% include menu.liquid list=site.data.menu %}</nav>
 		<p>本站使用 <a rel="publisher" lang="en" hreflang="en" href="https://github.com/jdh8/sweet-16/">Sweet 16</a> 佈景主題。</p>
-=======
-		<p>This blog is styled with <a rel="publisher" href="https://github.com/jdh8/sweet-16/">Sweet 16</a>.</p>
->>>>>>> 3b1dde8c2adc7841871d8504df4f0757b9fe1b08
 	</footer>
 </body>
 </html>
