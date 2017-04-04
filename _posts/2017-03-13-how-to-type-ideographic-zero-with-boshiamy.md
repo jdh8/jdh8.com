@@ -31,7 +31,7 @@ uuid: f4e7332c-151e-448e-8fad-e74b9e5cae4a
 	<thead>
 		<tr><th>錯誤版</th><th>正確版</th></tr>
 	</thead>
-	<tbody>
+	<tbody class="sans">
 		<tr style="font-weight: 100"><td>二○一七</td><td>二〇一七</td></tr>
 		<tr style="font-weight: 300"><td>二○一七</td><td>二〇一七</td></tr>
 		<tr style="font-weight: 400"><td>二○一七</td><td>二〇一七</td></tr>

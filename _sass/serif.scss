@@ -1,0 +1,56 @@
+@font-face {
+	font-family: "Source Han Serif " + $locale;
+	font-weight: 200;
+	src: local("Source Han Serif #{$locale} ExtraLight"),
+	     local("SourceHanSerif#{$locale}-ExtraLight"),
+	     url("../fonts/SourceHanSerif#{$locale}-ExtraLight.otf");
+}
+
+@font-face {
+	font-family: "Source Han Serif " + $locale;
+	font-weight: 300;
+	src: local("Source Han Serif #{$locale} Light"),
+	     local("SourceHanSerif#{$locale}-Light"),
+	     url("../fonts/SourceHanSerif#{$locale}-Light.otf");
+}
+
+@font-face {
+	font-family: "Source Han Serif " + $locale;
+	font-weight: 400;
+	src: local("Source Han Serif #{$locale} Regular"),
+	     local("SourceHanSerif#{$locale}-Regular"),
+	     url("../fonts/SourceHanSerif#{$locale}-Regular.otf");
+}
+
+@font-face {
+	font-family: "Source Han Serif " + $locale;
+	font-weight: 500;
+	src: local("Source Han Serif #{$locale} Medium"),
+	     local("SourceHanSerif#{$locale}-Medium"),
+	     url("../fonts/SourceHanSerif#{$locale}-Medium.otf");
+}
+
+@font-face {
+	font-family: "Source Han Serif " + $locale;
+	font-weight: 600;
+	src: local("Source Han Serif #{$locale} SemiBold"),
+	     local("SourceHanSerif#{$locale}-SemiBold"),
+	     url("../fonts/SourceHanSerif#{$locale}-SemiBold.otf");
+}
+
+@font-face {
+	font-family: "Source Han Serif " + $locale;
+	font-weight: 700;
+	src: local("Source Han Serif #{$locale} Bold"),
+	     local("SourceHanSerif#{$locale}-Bold"),
+	     url("../fonts/SourceHanSerif#{$locale}-Bold.otf");
+}
+
+@font-face {
+	font-family: "Source Han Serif " + $locale;
+	font-weight: 900;
+	src: local("Source Han Serif #{$locale} Heavy"),
+	     local("SourceHanSerif#{$locale}-Heavy"),
+	     url("../fonts/SourceHanSerif#{$locale}-Heavy.otf");
+}
+

@@ -7,53 +7,24 @@
 		"Noto #{$type} TC", "Noto #{$type} SC", "Noto #{$type} JP", "Noto #{$type} KR";
 }
 
-$sans: Montserrat, "Helvetica Neue", source(Sans), sans-serif;
+$sans: Montserrat, "Helvetica Neue", Helvetica, Arial, source("Sans"), sans-serif;
 
-@font-face {
-	font-family: "Source Han Serif TW";
-	src: local("Source Han Serif TW Regular"), local(SourceHanSerifTW-Regular),
-	     url(../fonts/SourceHanSerifTW-Regular.otf);
+$locale: TW; @import "serif";
+$locale: CN; @import "serif";
+
+.sans {
+	font-family: $sans;
 }
 
-@font-face {
-	font-family: "Source Han Serif TW";
-	font-weight: 700;
-	src: local("Source Han Serif TW Bold"), local(SourceHanSerifTW-Bold),
-	     url(../fonts/SourceHanSerifTW-Bold.otf);
-}
-
-@font-face {
-	font-family: "Source Han Serif TW";
-	font-weight: 900;
-	src: local("Source Han Serif TW Heavy"), local(SourceHanSerifTW-Heavy),
-	     url(../fonts/SourceHanSerifTW-Heavy.otf);
-}
-
-@font-face {
-	font-family: "Source Han Serif CN";
-	src: local("Source Han Serif CN Regular"), local(SourceHanSerifCN-Regular),
-	     url(../fonts/SourceHanSerifCN-Regular.otf);
-}
-
-@font-face {
-	font-family: "Source Han Serif CN";
-	font-weight: 700;
-	src: local("Source Han Serif CN Bold"), local(SourceHanSerifCN-Bold),
-	     url(../fonts/SourceHanSerifCN-Bold.otf);
-}
-
-@font-face {
-	font-family: "Source Han Serif CN";
-	font-weight: 900;
-	src: local("Source Han Serif CN Heavy"), local(SourceHanSerifCN-Heavy),
-	     url(../fonts/SourceHanSerifCN-Heavy.otf);
+.serif {
+	font-family: Merriweather, Georgia, "Times New Roman", Times, source("Serif"), serif;
 }
 
 html,
 input,
 select,
 textarea {
-	font-family: Merriweather, Georgia, "Times New Roman", Times, source(Serif), serif;
+	@extend .serif;
 	color: #1a1a1a;
 	line-height: 1.75;
 }
