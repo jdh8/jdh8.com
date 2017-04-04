@@ -2,15 +2,13 @@
 	@return
 		"Source Han #{$type} TC", "Source Han #{$type} TW", "Noto #{$type} CJK TC",
 		"Source Han #{$type} SC", "Source Han #{$type} CN", "Noto #{$type} CJK SC",
-		"Source Han #{$type}",    "Source Han #{$type} JP", "Noto #{$type} CJK JP",
-		"Source Han #{$type} K",  "Source Han #{$type} KR", "Noto #{$type} CJK KR",
-		"Noto #{$type} TC", "Noto #{$type} SC", "Noto #{$type} JP", "Noto #{$type} KR";
+		"Source Han #{$type}", "Noto #{$type} TC", "Noto #{$type} SC";
 }
 
 $sans: Montserrat, "Helvetica Neue", Helvetica, Arial, source("Sans"), sans-serif;
 
-$locale: TW; @import "serif";
-$locale: CN; @import "serif";
+$locale: TC; @import "serif";
+$locale: SC; @import "serif";
 
 .sans {
 	font-family: $sans;
