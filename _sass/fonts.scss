@@ -4,7 +4,8 @@
 		font-weight: $weight;
 
 		src: url("https://jdh8.github.io/source-han-serif/SourceHanSerif#{$locale}-#{$name}.woff2") format("woff2"),
-		     url("https://jdh8.github.io/source-han-serif/SourceHanSerif#{$locale}-#{$name}.woff") format("woff");
+		     url("https://jdh8.github.io/source-han-serif/SourceHanSerif#{$locale}-#{$name}.woff") format("woff"),
+		     url("https://jdh8.github.io/source-han-serif/SourceHanSerif#{$locale}-#{$name}.otf") format("opentype");
 	}
 }
 
