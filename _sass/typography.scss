@@ -1,33 +1,32 @@
-@mixin noto-serif-font-face($locale, $weight, $name) {
+@mixin source-han-serif-web-font-face($locale, $weight, $name) {
 	@font-face {
-		font-family: "Noto Serif " + $locale;
+		font-family: "Source Han Serif Web " + $locale;
 		font-weight: $weight;
 
-		src: local("Noto Serif #{$locale} #{$name}"),
-			 local("NotoSerif#{$locale}-#{$name}"),
-			 url("../fonts/NotoSerif#{$locale}-#{$name}.woff2") format("woff2"),
-			 url("../fonts/NotoSerif#{$locale}-#{$name}.woff") format("woff");
+		src: url("https://jdh8.github.io/source-han-serif/SourceHanSerif#{$locale}-#{$name}.woff2") format("woff2"),
+			 url("https://jdh8.github.io/source-han-serif/SourceHanSerif#{$locale}-#{$name}.woff") format("woff");
 	}
 }
 
-@mixin noto-serif($locale) {
-	@include noto-serif-font-face($locale, 200, "ExtraLight");
-	@include noto-serif-font-face($locale, 300, "Light");
-	@include noto-serif-font-face($locale, 400, "Regular");
-	@include noto-serif-font-face($locale, 500, "Medium");
-	@include noto-serif-font-face($locale, 600, "SemiBold");
-	@include noto-serif-font-face($locale, 700, "Bold");
-	@include noto-serif-font-face($locale, 900, "Heavy");
+@mixin source-han-serif-web($locale) {
+	@include source-han-serif-web-font-face($locale, 200, "ExtraLight");
+	@include source-han-serif-web-font-face($locale, 300, "Light");
+	@include source-han-serif-web-font-face($locale, 400, "Regular");
+	@include source-han-serif-web-font-face($locale, 500, "Medium");
+	@include source-han-serif-web-font-face($locale, 600, "SemiBold");
+	@include source-han-serif-web-font-face($locale, 700, "Bold");
+	@include source-han-serif-web-font-face($locale, 900, "Heavy");
 }
 
-@include noto-serif("TC");
-@include noto-serif("SC");
+@include source-han-serif-web("TW");
+@include source-han-serif-web("CN");
 
 @function source-han($type) {
 	@return
 		"Source Han #{$type} TC", "Source Han #{$type} TW", "Noto #{$type} CJK TC",
 		"Source Han #{$type} SC", "Source Han #{$type} CN", "Noto #{$type} CJK SC",
-		"Source Han #{$type}", "Noto #{$type} TC", "Noto #{$type} SC";
+		"Source Han #{$type}", "Noto #{$type} TC", "Noto #{$type} SC",
+		"Source Han #{$type} Web TW", "Source Han #{$type} Web CN";
 }
 
 $sans: Montserrat, "Helvetica Neue", Helvetica, Arial, source-han("Sans"), sans-serif;
