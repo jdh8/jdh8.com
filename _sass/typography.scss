@@ -1,21 +1,43 @@
-@function source($type) {
+@mixin noto-serif-font-face($locale, $weight, $name) {
+	@font-face {
+		font-family: "Noto Serif " + $locale;
+		font-weight: $weight;
+
+		src: local("Noto Serif #{$locale} #{$name}"),
+			 local("NotoSerif#{$locale}-#{$name}"),
+			 url("../fonts/NotoSerif#{$locale}-#{$name}.woff2") format("woff2"),
+			 url("../fonts/NotoSerif#{$locale}-#{$name}.woff") format("woff");
+	}
+}
+
+@mixin noto-serif($locale) {
+	@include noto-serif-font-face($locale, 200, "ExtraLight");
+	@include noto-serif-font-face($locale, 300, "Light");
+	@include noto-serif-font-face($locale, 400, "Regular");
+	@include noto-serif-font-face($locale, 500, "Medium");
+	@include noto-serif-font-face($locale, 600, "SemiBold");
+	@include noto-serif-font-face($locale, 700, "Bold");
+	@include noto-serif-font-face($locale, 900, "Heavy");
+}
+
+@include noto-serif("TC");
+@include noto-serif("SC");
+
+@function source-han($type) {
 	@return
 		"Source Han #{$type} TC", "Source Han #{$type} TW", "Noto #{$type} CJK TC",
 		"Source Han #{$type} SC", "Source Han #{$type} CN", "Noto #{$type} CJK SC",
 		"Source Han #{$type}", "Noto #{$type} TC", "Noto #{$type} SC";
 }
 
-$sans: Montserrat, "Helvetica Neue", Helvetica, Arial, source("Sans"), sans-serif;
-
-$locale: TC; @import "serif";
-$locale: SC; @import "serif";
+$sans: Montserrat, "Helvetica Neue", Helvetica, Arial, source-han("Sans"), sans-serif;
 
 .sans {
 	font-family: $sans;
 }
 
 .serif {
-	font-family: Merriweather, Georgia, "Times New Roman", Times, source("Serif"), serif;
+	font-family: Merriweather, Georgia, "Times New Roman", Times, source-han("Serif"), serif;
 }
 
 html,
