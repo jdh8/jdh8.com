@@ -2,7 +2,7 @@
 layout: post
 title: Clerkship 懶人包
 category: 醫學
-date: 2017-03-29 11:16
+date: 2017-04-26 23:23
 published: 2017-03-13 10:31
 uuid: d7d3fb13-083d-4a90-8198-eb55abe8def5
 ---
@@ -31,6 +31,9 @@ uuid: d7d3fb13-083d-4a90-8198-eb55abe8def5
 小考解答 <time>2017-03-29</time>
 : [小考解答](https://drive.google.com/file/d/0BxUY0Bm_YI1gbl9sRUN5TkJqWWc/view) 🔒
 
+胸腔內科 <time>2017-04-06</time>
+: [柯信國 <q lang="en">Dual bronchodilator in GOLD 2017</q>](https://drive.google.com/file/d/0BxUY0Bm_YI1gTHlZTTdOcHZ4SWM/view)
+
 ### 案例討論 🔒###
 此處只列出日期和講者，因為講題可能包含病人姓名，應保密。
 
@@ -39,6 +42,8 @@ uuid: d7d3fb13-083d-4a90-8198-eb55abe8def5
 * [陳雁捷](https://drive.google.com/file/d/0BxUY0Bm_YI1gLTljREVISk5LOVE/view) <time>2017-02-21</time>
 * [林欣穎](https://drive.google.com/file/d/0BxUY0Bm_YI1geDBvWVpwVEgzN2M/view) <time>2017-03-13</time>
 * [羅皓瑀](https://drive.google.com/file/d/0BxUY0Bm_YI1gbndpWVFidl9USmc/view) <time>2017-03-20</time>
+* [<span title="Baze Qalavangan">林昱緻</span>](https://drive.google.com/file/d/0BxUY0Bm_YI1gMGdqN1VDRGI2cG8/view) <time>2017-04-06</time>
 
 *[ACGME]: Accreditation Council for Graduate Medical Education
+*[GOLD]: Global Initiative for Chronic Obstructive Lung Disease
 *[PDF]: Portable Document Format
