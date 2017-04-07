@@ -1,6 +1,6 @@
-@mixin source-han-serif($locale, $weight: 400) {
-	$names: "", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "", "Heavy";
-	$name: nth($names, $weight / 100);
+$names: "", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "", "Heavy";
+
+@mixin source-han-serif($locale, $weight: 400, $name: nth($names, $weight / 100)) {
 
 	@font-face {
 		font-family: "Source Han Serif Web " + $locale;
