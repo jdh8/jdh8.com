@@ -2,8 +2,7 @@
 	@return
 		"Source Han #{$type} TC", "Source Han #{$type} TW", "Noto #{$type} CJK TC",
 		"Source Han #{$type} SC", "Source Han #{$type} CN", "Noto #{$type} CJK SC",
-		"Source Han #{$type}", "Noto #{$type} TC", "Noto #{$type} SC",
-		"Source Han #{$type} Web TW", "Source Han #{$type} Web CN";
+		"Source Han #{$type}", "Noto #{$type} TC", "Noto #{$type} SC";
 }
 
 $sans: Montserrat, "Helvetica Neue", Helvetica, Arial, source-han("Sans"), sans-serif;
@@ -13,7 +12,8 @@ $sans: Montserrat, "Helvetica Neue", Helvetica, Arial, source-han("Sans"), sans-
 }
 
 .serif {
-	font-family: Merriweather, Georgia, "Times New Roman", Times, source-han("Serif"), serif;
+	font-family: Merriweather, Georgia, "Times New Roman", Times, source-han("Serif"),
+		"Source Han Serif Web TW", "Source Han Serif Subset CN", serif;
 }
 
 html,
