@@ -2,6 +2,9 @@
   href: /about/
 - title: 工具
   href: /tools/
+  children:
+    - title: 八字命盤
+      href: /tools/4-pillars-of-destiny/
 - title: 微積分課程
   href: http://my2.tmu.edu.tw/course/14290
 - title: Wbridge5
