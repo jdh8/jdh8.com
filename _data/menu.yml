@@ -1,8 +1,14 @@
 - title: 關於
   href: /about/
 - title: 工具
-  href: /tools/
+  href: "#"
   children:
+    - title: Asm.js 縮小器
+      href: /tools/asm-js-minifier/
+    - title: 質數測試
+      href: /tools/prime/
+    - title: 白板
+      href: /tools/whiteboard/
     - title: 八字命盤
       href: /tools/4-pillars-of-destiny/
 - title: 微積分課程

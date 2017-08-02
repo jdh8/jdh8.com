@@ -1,0 +1,17 @@
+---
+layout: page
+title: 白板
+---
+<form id="board" name="board">
+	<textarea id="html" name="html" placeholder="請輸入 HTML 5 源碼。它會擺到 &lt;div> 裡面。"></textarea>
+	<p>
+		<label>
+			<input id="jax" name="jax" type="checkbox">
+			啟用 <a href="http://www.mathjax.org/" rel="external">MathJax</a> 排版
+		</label>
+	</p>
+	<p><button type="submit">排版</button></p>
+</form>
+<p id="display">&nbsp;</p>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+<script async src="dom.js"></script>
