@@ -3,18 +3,24 @@
 var form = document.forms.abacus;
 var inputs = form.elements;
 
+function MaybeDate(string)
+{
+	var time = Date.parse(string);
+	return time == time ? new Date(time) : null;
+}
+
 if (!("valueAsDate" in HTMLInputElement.prototype))
 {
 	Object.defineProperty(inputs.date, "valueAsDate",
 	{
-		get: function() { return new Date(this.value) },
-		set: function(date) { this.value = date.toISOString().replace(/T.*/, "") }
+		get: function() { return MaybeDate(this.value) },
+		set: function(date) { this.value = (date.toJSON() || "").replace(/T.*/, "") }
 	})
 
 	Object.defineProperty(inputs.time, "valueAsDate",
 	{
-		get: function() { return new Date("1970-01-01T" + this.value + "Z") },
-		set: function(date) { this.value = /T(.*)Z/.exec(date.toISOString())[1] }
+		get: function() { return MaybeDate("1970-01-01T" + this.value + "Z") },
+		set: function(date) { this.value = /T(.*)Z/.exec(date.toJSON() || "TZ")[1] }
 	});
 }
 
