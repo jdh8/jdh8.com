@@ -14,13 +14,13 @@ if (!("valueAsDate" in HTMLInputElement.prototype))
 	Object.defineProperty(inputs.date, "valueAsDate",
 	{
 		get: function() { return MaybeDate(this.value) },
-		set: function(date) { this.value = (date.toJSON() || "").replace(/T.*/, "") }
+		set: function(date) { this.value = /[^T]*/.exec(date.toJSON() || "")[0] }
 	})
 
 	Object.defineProperty(inputs.time, "valueAsDate",
 	{
 		get: function() { return MaybeDate("1970-01-01T" + this.value + "Z") },
-		set: function(date) { this.value = /T(.*)Z/.exec(date.toJSON() || "TZ")[1] }
+		set: function(date) { this.value = /T([^Z]*)/.exec(date.toJSON() || "T")[1] }
 	});
 }
 
