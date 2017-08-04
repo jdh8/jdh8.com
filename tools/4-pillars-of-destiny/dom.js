@@ -5,27 +5,6 @@
 var form = document.forms.abacus;
 var inputs = form.elements;
 
-function MaybeDate(string)
-{
-	var time = Date.parse(string);
-	return time == time ? new Date(time) : null;
-}
-
-if (!("valueAsDate" in HTMLInputElement.prototype))
-{
-	Object.defineProperty(inputs.date, "valueAsDate",
-	{
-		get: function() { return MaybeDate(this.value) },
-		set: function(date) { this.value = /[^T]*/.exec(date.toJSON() || "")[0] }
-	})
-
-	Object.defineProperty(inputs.time, "valueAsDate",
-	{
-		get: function() { return MaybeDate("1970-01-01T" + this.value + "Z") },
-		set: function(date) { this.value = /T([^Z]*)/.exec(date.toJSON() || "T")[1] }
-	});
-}
-
 form.addEventListener("submit", function(ev)
 {
 	ev.preventDefault();
