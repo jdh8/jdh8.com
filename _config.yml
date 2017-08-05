@@ -1,4 +1,4 @@
-plugins:
+gems:
   - jekyll-paginate
 
 title: Integration by me
