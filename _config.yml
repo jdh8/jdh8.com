@@ -5,7 +5,6 @@ title: Integration by me
 description: 你們必曉得真理，真理必叫你們得以自由。
 paginate: 10
 paginate_path: /page/:num/
-baseurl: /jdh8.org
 permalink: /:title/
 timezone: Asia/Taipei
 
