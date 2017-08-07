@@ -20,7 +20,7 @@ uuid: 55845249-a2f4-4acc-aa25-726de70a3ce5
 </body>
 </html>'></iframe>
 
-幸好 nginx 可以讓我們自訂錯誤頁面，並且支援 SSI。所以我就自己寫了[重定向頁面][red]。這樣就有符合
+幸好 nginx 可以讓我們自訂錯誤頁面，並且支援 SSI。所以我就自己寫了重定向頁面。這樣就有符合
 HTTP 標準的重定向頁面了。
 
 ```md
@@ -31,5 +31,4 @@ HTTP 標準的重定向頁面了。
 
 [^1]: 依規定 301, 302 重定向只接受 GET 和 HEAD，因此以其他請求方式就會停在回覆實體。
 
-[red]: https://github.com/jdh8/jdh8.org/blob/master/predicates/redirect.markdown
 [rfc]: https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.3
