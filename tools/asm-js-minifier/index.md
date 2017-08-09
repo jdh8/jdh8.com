@@ -13,4 +13,4 @@ title: Asm.js 縮小器
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/esprima/2.7.3/esprima.min.js"></script>
 <script async src="https://estools.github.io/esmangle/javascripts/esmangle.js"></script>
 <script async src="https://estools.github.io/escodegen/escodegen.browser.js"></script>
-<script async src="dom.js"></script>
+<script async src="https://jdh8.github.io/tools/asm-js-minifier/dom.js"></script>

@@ -5,14 +5,10 @@
 
 	document.getElementById("num").addEventListener("input", function()
 	{
-		output.nodeValue = function(value)
-		{
-			value = +value;
+		const value = this.valueAsNumber;
 
-			if (+(~~value >>> 0) != value)
-				return "請輸入 32 位元正整數。";
-
-			return value + [" 是合數。", " 不是質數也不是合數。", " 是質數。"][prime.test(value)];
-		}(this.valueAsNumber);
+		output.nodeValue = prime.isuint(value)
+			? value + [" 是合數。", " 不是質數也不是合數。", " 是質數。"][prime.test(value)]
+			: "請輸入 32 位元正整數。";
 	});
 }
