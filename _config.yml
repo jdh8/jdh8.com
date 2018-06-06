@@ -1,5 +1,6 @@
-gems:
+plugins:
   - jekyll-paginate
+  - jekyll-redirect-from
 
 title: Integration by me
 description: 你們必曉得真理，真理必叫你們得以自由。

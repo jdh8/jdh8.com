@@ -5,6 +5,7 @@ category: 醫學
 date: 2017-04-06 23:23
 published: 2017-03-13 10:31
 uuid: d7d3fb13-083d-4a90-8198-eb55abe8def5
+redirect_from: /morning-meetings/
 ---
 為了維護病人隱私，如果簡報中有個案資料，無論真實或虛構，則需要登入北醫帳號才能讀取。
 
