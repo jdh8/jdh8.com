@@ -47,8 +47,7 @@ title: 關於
 [SearchEn]: https://duckduckgo.com/?q=%22Chen-Pang+He%22
 [SearchZh]: https://duckduckgo.com/?q=%E4%BD%95%E9%9C%87%E9%82%A6
 [SHA-1]: https://en.wikipedia.org/wiki/SHA-1
-[TMU]: http://www.tmu.edu.tw/v3/main.php
-[WP]: http://jdh8.org
+[TMU]: http://www.tmu.edu.tw/
 
 關於本站
 --------
