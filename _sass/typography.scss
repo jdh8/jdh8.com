@@ -1,17 +1,9 @@
-@function source-han($type) {
-	@return
-		"Source Han #{$type} TC", "Source Han #{$type} TW", "Noto #{$type} CJK TC",
-		"Source Han #{$type} SC", "Source Han #{$type} CN", "Noto #{$type} CJK SC",
-		"Source Han #{$type}", "Noto #{$type} TC", "Noto #{$type} SC";
-}
-
 .serif {
-	font-family: Merriweather, Georgia, "Times New Roman", Times, source-han("Serif"),
-		"Source Han Serif Web TW", "Source Han Serif Subset CN", serif;
+	font-family: Merriweather, Georgia, "Times New Roman", Times, "Noto Serif KR", serif;
 }
 
 .sans {
-	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, source-han("Sans"), sans-serif;
+	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "Noto Sans TC", sans-serif;
 }
 
 html,
@@ -156,7 +148,3 @@ em%cjk {
 	font-variant: small-caps;
 	text-transform: lowercase;
 }
-
-@include source-han-serif(TW, 400);
-@include source-han-serif(TW, 700);
-@include source-han-serif(TW, 900);
