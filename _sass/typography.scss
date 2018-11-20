@@ -5,15 +5,13 @@
 		"Source Han #{$type}", "Noto #{$type} TC", "Noto #{$type} SC";
 }
 
-$sans: Montserrat, "Helvetica Neue", Helvetica, Arial, source-han("Sans"), sans-serif;
-
-.sans {
-	font-family: $sans;
-}
-
 .serif {
 	font-family: Merriweather, Georgia, "Times New Roman", Times, source-han("Serif"),
 		"Source Han Serif Web TW", "Source Han Serif Subset CN", serif;
+}
+
+.sans {
+	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, source-han("Sans"), sans-serif;
 }
 
 html,
