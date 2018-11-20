@@ -16,10 +16,7 @@ uuid: 423de7aa-d0cc-4d0a-8ab7-a778f43b0083
 [WOFF][woff] 檔。歡迎各位下載或以 [`@font-face`][face] 套用於網頁上。感謝
 [GitHub 願意成為大家的 CDN][cors]。
 
-把字型套用到網頁上的細節，請參考[我在本站的做法][scss]。
-
 [cors]: https://twitter.com/invisiblecomma/status/575219895308324864
 [face]: https://developer.mozilla.org/zh-TW/docs/Web/CSS/@font-face
 [repo]: https://github.com/jdh8/source-han-serif
-[scss]: https://github.com/jdh8/jdh8.org/blob/master/_sass/fonts.scss
 [woff]: https://zh.wikipedia.org/wiki/Web%E9%96%8B%E6%94%BE%E5%AD%97%E5%9E%8B%E6%A0%BC%E5%BC%8F
