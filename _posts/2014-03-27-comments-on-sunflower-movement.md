@@ -6,7 +6,7 @@ author: masao
 lang: zh-Hans
 uuid: 7600d414-de3e-427e-90f7-399e0d5479fe
 ---
-<link rel="stylesheet" href="{{ site.baseurl }}/style/china.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:,b,900&amp;display=fallback">
 
 > 本文的作者是 Masao Syo，出處已河蟹。感謝[切開提供備份][backup]。
 {: lang="zh-Hant"}

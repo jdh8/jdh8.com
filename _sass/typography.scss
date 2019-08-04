@@ -1,6 +1,9 @@
 .serif {
 	font-family: Merriweather, Georgia, "Times New Roman", Times, "Noto Serif TC", serif;
 }
+.serif:lang(zh-Hant) {
+	font-family: Merriweather, Georgia, "Times New Roman", Times, "Noto Serif SC", "Noto Serif TC", serif;
+}
 
 .sans {
 	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "Noto Sans TC", sans-serif;
