@@ -10,5 +10,5 @@ title: 質數測試
 <input required id="num" type="number" inputmode="numeric" max="4294967295" min="0" step="1">
 <p id="result">&nbsp;</p>
 
-<script src="https://jdh8.github.io/tools/prime/prime.min.js"></script>
+<script src="https://jdh8.org/tools/prime/prime.min.js"></script>
 <script src="dom.js"></script>

@@ -7,7 +7,7 @@
 <metadata>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<rdf:Description xmlns="http://purl.org/dc/terms/">
-		<creator rdf:resource="https://jdh8.github.io/author.rdf" />
+		<creator rdf:resource="https://jdh8.org/author.rdf" />
 		<type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
 		<license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/" />
 	</rdf:Description>
@@ -88,9 +88,9 @@ text {
 		<circle r="15" fill="#fff"/>
 	</svg>
 </a>
-<a target="_parent" xlink:href="https://jdh8.org/iq-test/">
+<a target="_parent" xlink:href="https://jdh8.com/iq-test/">
 	<text x="850" y="410" id="question">?</text>
-	<text x="1000" y="480" id="url">jdh8.org/iq-test</text>
+	<text x="1000" y="480" id="url">jdh8.com/iq-test</text>
 </a>
 <a target="_parent" xlink:href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW">
 	<svg x="0" y="450" width="40" height="40" viewBox="5.5 -3.5 64 64">
