@@ -14,7 +14,7 @@ redirect_from: /feed/
 
 	<author>
 		<name>何震邦</name>
-		<uri>https://jdh8.github.io/author.rdf</uri>
+		<uri>https://jdh8.org/author.rdf</uri>
 	</author>
 
 	{% for post in site.posts %}
