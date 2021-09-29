@@ -5,8 +5,6 @@ category: 數學
 tags: 低花 橋牌 無王 特約
 uuid: 7e0c5994-f0b2-4339-93ea-5cc06cebf4b9
 ---
-<link rel="stylesheet" href="{{ site.baseurl }}/style/bridge.css">
-
 我一直在研究 [Wbridge5][wbr5]
 這個優秀的橋牌程式。曾經我對於它收錄[反序低花][invm]卻預設停用感到不解。後來我得出一個結論。
 
@@ -40,8 +38,7 @@ K-S 制加上[強梅花][club]，因此也繼承了弱無王的傳統。
 垃圾筒 1NT
 : 可能是弱牌。假如我方皆低限，期望吃到 5 墩。
 
-開叫 1♠, 1<span class="redsuit">♥</span>,
-1<span class="redsuit">♦</span>，若敵方不插叫，為了防止掉局，答叫的 1NT 都是垃圾筒。
+開叫 1♠, 1♥, 1♦，若敵方不插叫，為了防止掉局，答叫的 1NT 都是垃圾筒。
 
 假如答叫反序低花，敵方不插叫，都是垃圾筒 1NT。
 
