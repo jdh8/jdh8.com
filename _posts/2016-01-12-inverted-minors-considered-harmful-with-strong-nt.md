@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 反序低花搭配強無王可能有害
-category: 數學
-tags: 低花 橋牌 無王 特約
+category: 橋牌
+tags: 叫牌 反序低花
 uuid: 7e0c5994-f0b2-4339-93ea-5cc06cebf4b9
 ---
 我一直在研究 [Wbridge5][wbr5]

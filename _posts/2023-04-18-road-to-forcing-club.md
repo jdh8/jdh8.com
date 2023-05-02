@@ -2,6 +2,7 @@
 layout: post
 title: 迫叫梅花之路
 category: 橋牌
+tags: 叫牌 波蘭梅花 強梅花 Multi Ekren
 uuid: 8edf2f2f-7322-4ac2-83b0-8b360cc16b85
 ---
 我喜歡資訊理論，也喜歡研究叫牌制度。去年開始看 <em lang="en">Good, Better, Best</em> (Larsson 2021) 一書，覺得波蘭梅花是很適合自然制橋手學習，理論上又能贏過自然制的制度，於是入坑至今。書中認為含 canapé 的強梅花制更強一些，但是跟波蘭對戰的實驗不多，也跟自然制差異較大，我還在研究當中。另一方面我也在撰寫橋牌函式庫 [pons](https://github.com/jdh8/pons) 當中，雖然進展很慢但還是希望未來能做一些有趣的實驗。
