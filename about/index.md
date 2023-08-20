@@ -2,8 +2,6 @@
 layout: page
 title: 關於
 ---
-<link rel="stylesheet" href="style.css">
-
 關於我
 ------
 我叫[**何震邦**][SearchZh]，畢業於[臺北醫學大學][TMU]醫學系。在漢字不宜的場合，我也叫
