@@ -6,14 +6,6 @@ title: 關於
 
 關於我
 ------
-<div id="avatar">
-<a href="https://www.gravatar.com/avatar/a28b050d0206b3d418551203ddd83cba?s=800">
-<img alt="Chen-Pang He" width="200" height="200"
-	src="https://www.gravatar.com/avatar/a28b050d0206b3d418551203ddd83cba?s=200"
-	srcset="https://www.gravatar.com/avatar/a28b050d0206b3d418551203ddd83cba?s=400 2x">
-</a>
-</div>
-
 我叫[**何震邦**][SearchZh]，畢業於[臺北醫學大學][TMU]醫學系。在漢字不宜的場合，我也叫
 [**Chen-Pang He**][SearchEn]。
 
@@ -31,10 +23,6 @@ title: 關於
 * [Bitbucket](https://bitbucket.org/jdh8)
 * [GitHub](https://github.com/jdh8)
 * [Stack Overflow](http://stackoverflow.com/users/2099989/jdh8)
-
-<small>
-\[大頭貼的效果取自 [Lea Verou][Lea]。她的效果是動態生成的，我則直接寫死在本頁。\]
-</small>
 
 [CK]: https://web.ck.tp.edu.tw/
 [Cxx]: https://zh.wikipedia.org/wiki/C%2B%2B
