@@ -1,7 +1,16 @@
-- title: English
-  href: https://jdh8.org/
-- title: 關於
-  href: /about/
+- title: 連結
+  href: '#'
+  children:
+    - title: Discord
+      href: https://discord.gg/9N6tRxDJXp
+    - title: Natsuki
+      href: https://discord.gg/gvXAy63dNR
+    - title: Wbridge5
+      href: https://jdh8.gitbooks.io/wbridge5/content/
+    - title: 微積分課程
+      href: http://my2.tmu.edu.tw/course/14290
+    - title: English
+      href: https://jdh8.org/
 - title: 工具
   href: /tools/
   children:
@@ -13,7 +22,3 @@
       href: /tools/unicode/
     - title: 白板
       href: /tools/whiteboard/
-- title: 微積分課程
-  href: http://my2.tmu.edu.tw/course/14290
-- title: Wbridge5
-  href: https://jdh8.gitbooks.io/wbridge5/content/
