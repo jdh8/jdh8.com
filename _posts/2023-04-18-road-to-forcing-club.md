@@ -39,9 +39,9 @@ uuid: 8edf2f2f-7322-4ac2-83b0-8b360cc16b85
 Multi 後續的版本很多，可以選一個自己喜歡的
 
 - 葉庭佑編寫的 [Multi 2♦ 後續](https://hackmd.io/@TpKotoba/SJCsyv6_i)
-- 我編寫的[火斑喵波蘭梅花][wj]裡面的 Multi 2♦ 取材自 [FunBridge](https://www.funbridge.com/) 及上述葉庭佑的版本
+- 我編寫的[草莓波蘭梅花][wj]裡面的 Multi 2♦ 取材自 [FunBridge](https://www.funbridge.com/) 及上述葉庭佑的版本
 
-至於高花弱二我建議就用[火斑喵波蘭][wj]裡面的版本。要特別注意的是蓋叫新花不迫叫，因為需要逃跑的場合變多，例如 5-1 跟 5-0 通常不想打。
+至於高花弱二我建議就用[草莓波蘭][wj]裡面的版本。要特別注意的是蓋叫新花不迫叫，因為需要逃跑的場合變多，例如 5-1 跟 5-0 通常不想打。
 
 [wj]: https://jdh8.github.io/bridge-systems/wj.htm
 
@@ -81,7 +81,7 @@ Multi 後續的版本很多，可以選一個自己喜歡的
 2NT
 : 低花 (55) 以上，4--10 HCP
 
-後續可以參考我的[火斑喵波蘭梅花][wj]以及原版的波蘭梅花 2020 專業版[^wjx]。
+後續可以參考我的[草莓波蘭梅花][wj]以及原版的波蘭梅花 2020 專業版[^wjx]。
 
 [^wjx]: Jassem 2020
 
