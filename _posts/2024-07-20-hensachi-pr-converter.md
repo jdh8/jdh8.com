@@ -17,11 +17,11 @@ import erfinv from "https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfi
 const hensachi = document.getElementById("hensachi");
 const pr = document.getElementById("percentile-rank");
 
-hensachi.addEventListener("input", function() {
-    pr.value = 50 + 50 * erf(Math.sqrt(0.005) * (this.value - 50));
+hensachi.addEventListener("input", () => {
+    pr.value = 50 + 50 * erf(Math.sqrt(0.005) * (hensachi.value - 50));
 });
 
-pr.addEventListener("input", function() {
+pr.addEventListener("input", () => {
     hensachi.value = 50 + Math.sqrt(200) * erfinv(0.02 * (pr.value - 50));
 });
 </script>
