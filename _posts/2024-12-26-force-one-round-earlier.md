@@ -1,5 +1,6 @@
 ---
 layout: post
+class: aside
 title: 提前一圈迫叫
 category: 橋牌
 tags: 叫牌
