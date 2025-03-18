@@ -9,7 +9,7 @@ redirect_from: /feed/
 	<link href="{{ site.baseurl }}/" />
 	<id>urn:uuid:f4d85827-eab5-4bed-a093-58e848243d5f</id>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<icon>{{ site.baseurl }}/favicon.svg</icon>
+	<icon>{{ site.baseurl }}/assets/shogi-icon.svg</icon>
 	<rights>文字採用 CC BY-SA 4.0 授權。源碼採用 GPLv3+ 授權。</rights>
 
 	<author>
