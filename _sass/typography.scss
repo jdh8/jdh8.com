@@ -1,12 +1,20 @@
-.serif {
-	font-family: Merriweather, Georgia, "Times New Roman", Times, "Noto Serif TC", serif;
+@function --noto-cjk($serif, $langs...) {
+	$fonts: ();
+	@each $lang in $langs {
+		$fonts: $fonts, "Noto #{$serif} CJK #{$lang}", "Noto #{$serif} #{$lang}";
+	}
+	@return $fonts;
 }
-.serif:lang(zh-Hant) {
-	font-family: Merriweather, Georgia, "Times New Roman", Times, "Noto Serif SC", "Noto Serif TC", serif;
+
+.serif {
+	font-family: Merriweather, Georgia, "Times New Roman", Times, --noto-cjk("Serif", "TC", "SC"), serif;
+}
+.serif:lang(zh-Hans) {
+	font-family: Merriweather, Georgia, "Times New Roman", Times, --noto-cjk("Serif", "SC", "TC"), serif;
 }
 
 .sans {
-	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "Noto Sans TC", sans-serif;
+	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, --noto-cjk("Sans", "TC", "SC"), sans-serif;
 }
 
 html,
