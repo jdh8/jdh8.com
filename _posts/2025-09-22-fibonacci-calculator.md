@@ -24,38 +24,38 @@ const result = document.getElementById("fibonacci-result");
 
 // Multiply two Fibonacci matrices
 const matmul = (a, b) => [
-    a[0] * b[0] + a[1] * b[1],
-    a[0] * b[1] + a[1] * b[2],
-    a[1] * b[1] + a[2] * b[2],
+	a[0] * b[0] + a[1] * b[1],
+	a[0] * b[1] + a[1] * b[2],
+	a[1] * b[1] + a[2] * b[2],
 ];
 
 const fibonacci = index => {
-    const F0 = [1n, 0n, 1n]; // Identity matrix
-    const F1 = [0n, 1n, 1n]; // Fibonacci matrix
+	const F0 = [1n, 0n, 1n]; // Identity matrix
+	const F1 = [0n, 1n, 1n]; // Fibonacci matrix
 
-    // Reject NaN and negative indices
-    if (!(index >= 0))
-        return undefined;
+	// Reject NaN and negative indices
+	if (!(index >= 0))
+		return undefined;
 
-    index >>>= 0; // Convert to uint32
+	index >>>= 0; // Convert to uint32
 
-    if (index < F1.length)
-        return F1[index];
+	if (index < F1.length)
+		return F1[index];
 
-    const parity = index & 1;
-    let result = F0;
-    let operator = matmul(F1, F1);
+	const parity = index & 1;
+	let result = F0;
+	let operator = matmul(F1, F1);
 
-    while (index >>>= 1) {
-        if (index & 1)
-            result = matmul(result, operator);
-        operator = matmul(operator, operator);
-    }
+	while (index >>>= 1) {
+		if (index & 1)
+			result = matmul(result, operator);
+		operator = matmul(operator, operator);
+	}
 
-    return result[1 + parity];
+	return result[1 + parity];
 }
 
 argument.addEventListener("input", () => {
-  result.value = fibonacci(argument.value);
+	result.value = fibonacci(argument.value);
 });
 </script>
