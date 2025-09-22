@@ -30,8 +30,7 @@ const matmul = (a, b) => [
 ];
 
 const fibonacci = index => {
-	const F0 = [1n, 0n, 1n]; // Identity matrix
-	const F1 = [0n, 1n, 1n]; // Fibonacci matrix
+	const F1 = [0n, 1n, 1n];
 
 	// Reject NaN and negative indices
 	if (!(index >= 0))
@@ -43,7 +42,7 @@ const fibonacci = index => {
 		return F1[index];
 
 	const parity = index & 1;
-	let result = F0;
+	let result = [1n, 0n, 1n]; // Identity matrix
 	let operator = matmul(F1, F1);
 
 	while (index >>>= 1) {
@@ -51,7 +50,6 @@ const fibonacci = index => {
 			result = matmul(result, operator);
 		operator = matmul(operator, operator);
 	}
-
 	return result[1 + parity];
 }
 
