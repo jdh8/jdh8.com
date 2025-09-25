@@ -54,6 +54,6 @@ const fibonacci = index => {
 }
 
 argument.addEventListener("input", () => {
-    result.innerText = fibonacci(argument.value).toLocaleString();
+    result.textContent = fibonacci(argument.value).toLocaleString();
 });
 </script>
