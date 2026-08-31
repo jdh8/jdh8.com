@@ -11,6 +11,8 @@
 		<link rel="alternate" type="application/atom+xml" href="{{ site.baseurl }}/feed.atom">
 	{% elsif structure[0] == "page" %}
 		<title>{{ site.title }} – 第 {{ structure[1] }} 頁 – {{ site.description | strip_html }}</title>
+	{% elsif page.type == "year" %}
+		<title>{{ page.date | date: "%Y" }} – {{ site.title }}</title>
 	{% else %}
 		<title>{{ page.title }} – {{ site.title }}</title>
 	{% endif %}
@@ -45,6 +47,15 @@
 	<main>{{ content | replace: '♥', '<span class="redsuit">♥</span>' | replace: '♦', '<span class="redsuit">♦</span>' }}</main>
 	<aside>
 		<section>{% include search.liquid %}</section>
+		<section>
+			<h2>彙整</h2>
+			<ul>
+				{% assign years = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+				{% for year in years %}
+					<li><a href="{{ site.baseurl }}/{{ year.name }}/">{{ year.name }}</a></li>
+				{% endfor %}
+			</ul>
+		</section>
 		<section>
 			<h2>分類</h2>
 			<ul>
