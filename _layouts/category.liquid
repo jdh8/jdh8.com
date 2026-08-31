@@ -3,7 +3,6 @@ layout: default
 ---
 <header>
 	<h1>分類：{{ page.title }}</h1>
-	{{ content }}
+	{{ site.data.categories[page.title] | markdownify }}
 </header>
-{% assign category = site.categories[page.title] %}
-{% include series.liquid posts=category %}
+{% include series.liquid posts=page.posts %}

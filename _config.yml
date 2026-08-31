@@ -1,6 +1,13 @@
 plugins:
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: [tags, categories]
+  layouts:
+    tag: tag
+    category: category
 
 title: 梅花雀莊
 description: 何震邦的個人網站，通常寫電腦和橋牌相關的文章，未來可能會寫關於日本麻將的東西
