@@ -7,8 +7,9 @@ layout: default
 	<header><h1 class="title">什麼都沒找到</h1></header>
 	<p>
 		沒有找到你要的內容。
-		{% comment %} 也許你可以搜尋一下看看。 {% endcomment %}
+		也許你可以搜尋一下看看。
 	</p>
+	{% include search.liquid %}
 {% endunless %}
 
 {% if paginator.total_pages > 1 %}

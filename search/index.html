@@ -1,0 +1,20 @@
+---
+layout: default
+title: 搜尋
+permalink: /search/
+---
+<header><h1 class="title">搜尋結果：<span></span></h1></header>
+<noscript><p>請啟用 JavaScript 以使用搜尋功能。</p></noscript>
+<template id="none">
+	<header><h1 class="title">什麼都沒找到</h1></header>
+	<p>抱歉，沒有符合你搜尋條件的內容。請使用其他關鍵字再試一次。</p>
+	{% include search.liquid %}
+</template>
+<template id="loader">
+	<button type="button" id="load">較舊貼文</button>
+</template>
+{% assign pages = site.posts.size | plus: site.paginate | minus: 1 | divided_by: site.paginate %}
+<script type="module">
+	import search from "{{ site.baseurl }}/search.js";
+	search({{ pages }}, {{ site.paginate }});
+</script>
