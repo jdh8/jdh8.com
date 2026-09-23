@@ -3,3 +3,5 @@ gem "jekyll", "~> 4.4"
 gem "jekyll-archives", "~> 2.3"
 gem "jekyll-paginate", "~> 1.1"
 gem "jekyll-redirect-from", "~> 0.16"
+
+gem "bigdecimal"
