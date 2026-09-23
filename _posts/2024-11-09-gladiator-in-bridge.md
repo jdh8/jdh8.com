@@ -3,7 +3,6 @@ layout: post
 title: 橋牌中的 Gladiator
 category: 橋牌
 tags: 叫牌
-uuid: 121888a5-7269-405a-a438-f897e1063454
 ---
 最近同名續集上映，借我蹭一下熱度！Gladiator 是一種 1NT 的後續，所指的是
 

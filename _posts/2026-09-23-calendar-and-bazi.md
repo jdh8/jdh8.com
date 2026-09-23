@@ -2,7 +2,6 @@
 layout: post
 title: 萬年曆與八字命盤
 category: 電腦
-uuid: df41ea4f-8d96-4303-9d17-d90b8fc13b7b
 ---
 
 最近做了兩個跟日期有關的小工具：[日常・萬年曆][calendar]和[八字命盤][bazi]。

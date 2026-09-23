@@ -3,7 +3,6 @@ layout: post
 title: 時拉比ex 渴望 3 顆能量
 category: 數學
 tags: ポケポケ PTCGP 寶可夢 卡牌
-uuid: a7840a4b-ae08-43bd-a9d7-33ce5e7323d7
 ---
 
 在寶可夢卡牌手遊（Pokémon TCG Pocket, ポケポケ）當中，[時拉比ex](https://pocket.limitlesstcg.com/cards/A1a/3) 的招式是強力綻放。這個招式需要 2 顆以上的能量，每顆能量擲一次硬幣，每次正面就能造成 50 點傷害。由於連續投擲硬幣是獨立白努力試驗，所以結果會遵循[二項式分布](https://zh.wikipedia.org/zh-tw/%E4%BA%8C%E9%A0%85%E5%BC%8F%E5%88%86%E5%B8%83)。

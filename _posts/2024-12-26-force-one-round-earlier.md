@@ -4,7 +4,6 @@ class: aside
 title: 提前一圈迫叫
 category: 橋牌
 tags: 叫牌
-uuid: 90f4d14d-e07b-401a-b74d-73cb17dc2a56
 ---
 與其先叫一個不迫叫叫品，之後再把強牌迫叫出來，不如考慮把迫叫叫品提前一圈。
 

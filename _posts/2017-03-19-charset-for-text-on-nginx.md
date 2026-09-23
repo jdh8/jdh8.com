@@ -3,7 +3,6 @@ layout: post
 title: 在 nginx 上調整所有文本的編碼
 category: 電腦
 tags: Unicode nginx
-uuid: 2c48a7f9-ccaf-4e25-a679-d39d97ef8f38
 ---
 全站的文字檔都使用相同編碼是很常見的。尤其是 [UTF-8][utf8]
 儼然是今日的*實作*標準。然而，nginx 預設的 [`charset_types`][types]

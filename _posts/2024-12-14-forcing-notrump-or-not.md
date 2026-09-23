@@ -3,7 +3,6 @@ layout: post
 title: 迫叫一無王？
 category: 橋牌
 tags: 叫牌
-uuid: 432ff569-9fa3-429e-8097-a94a1b8c5968
 ---
 在高花開叫之後，1NT 答叫堪稱垃圾筒，處理所有需要答叫但是沒有更好選項的叫品。對於 1NT 要不要 100% 迫叫則是眾說紛紜，例如 [Larry Cohen 主張應該打半/不迫叫](https://www.larryco.com/bridge-articles/1nt-forcing)，也就是開叫人不受邀平均牌可以 P 掉 1NT 答叫。
 

@@ -3,7 +3,6 @@ layout: post
 title: 競叫時的 Transfer Walsh
 category: 橋牌
 tags: 叫牌 競叫
-uuid: 76af208a-92d1-4e76-b0e4-5054d963b195
 ---
 Transfer Walsh 是一種對 1♣ 的答叫，其中 [Walsh](https://en.wikipedia.org/wiki/Walsh_convention) 指的是有 4 張高花時不答叫方塊的風格。
 

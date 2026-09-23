@@ -2,7 +2,6 @@
 layout: post
 title: 偏差值與 PR 值的轉換器
 category: 數學
-uuid: 7fd1f165-2001-4254-8b2d-f3a1d9b359d4
 ---
 偏差值：  
 <input type="number" id="hensachi" placeholder="輸入偏差值">

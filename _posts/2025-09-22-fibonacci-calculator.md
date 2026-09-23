@@ -2,7 +2,6 @@
 layout: post
 title: 費氏數列計算機
 category: 數學
-uuid: 9d3019f4-e231-47ca-ae01-7e2211be79f9
 ---
 
 *n* =

@@ -3,7 +3,6 @@ layout: post
 title: 在 Linux 上使用 Nintendo Switch Pro 手把
 category: 電腦
 tags: Linux 驅動程式
-uuid: 1d7d50a6-2d15-40ce-b90e-d6a3ddbc3a57
 ---
 今年發現用鍵鼠玩遊戲會導致機械鍵盤暫時接觸不良，於是 11 月初在朋友的推薦下就買了 Switch Pro 手把。按起來真的很很舒服，不過卻從此開啟了惡搞之路……。
 

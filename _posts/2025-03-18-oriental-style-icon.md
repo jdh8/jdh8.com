@@ -3,7 +3,6 @@ layout: post
 class: aside
 title: 東方風格的圖示
 category: 電腦
-uuid: a0cf874b-9c0a-4505-85e5-b7bf001cf3f7
 ---
 ![將棋裡有個 ♣]({{ site.baseurl }}/assets/shogi-icon.svg)
 

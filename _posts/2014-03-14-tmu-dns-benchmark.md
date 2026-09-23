@@ -2,7 +2,6 @@
 layout: post
 title: 北醫 DNS 評測
 category: 電腦
-uuid: 84cbb0a1-36ce-4a00-b496-51b58e0854cc
 redirect_from: /tmu-network-debugging/
 ---
 為了自由，我在校內常常使用 GNU/Linux 的作業系統們上網。然而當我使用學校預設的

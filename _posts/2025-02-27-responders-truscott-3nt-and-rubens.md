@@ -4,7 +4,6 @@ class: aside
 title: 答叫人的 Truscott 3NT 及 Rubens
 category: 橋牌
 tags: 叫牌
-uuid: 478c0828-786b-40b1-8d7a-5020a5b4fae0
 ---
 打 [FunBridge](https://www.funbridge.com) 看到 Argine（電腦）有一個約定很有趣，想分享一下。
 

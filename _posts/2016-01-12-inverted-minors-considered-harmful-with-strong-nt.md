@@ -3,7 +3,6 @@ layout: post
 title: 反序低花搭配強無王可能有害
 category: 橋牌
 tags: 叫牌 反序低花
-uuid: 7e0c5994-f0b2-4339-93ea-5cc06cebf4b9
 ---
 我一直在研究 [Wbridge5][wbr5]
 這個優秀的橋牌程式。曾經我對於它收錄[反序低花][invm]卻預設停用感到不解。後來我得出一個結論。

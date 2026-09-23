@@ -3,7 +3,6 @@ layout: post
 title: 讓 nginx 重定向遵循 HTTP
 category: 電腦
 tags: nginx
-uuid: 55845249-a2f4-4acc-aa25-726de70a3ce5
 ---
 根據 [RFC 2616][rfc]，除了 `Location`
 標頭外，回覆實體（也就是一般使用者看到的網頁）裡面也需要包含重定向的目標。不過基於程式的健壯性原則，瀏覽器等

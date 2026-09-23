@@ -5,7 +5,6 @@ category: 電腦
 tags: 嘸蝦米 漢字 Unicode Big5
 date: 2017-03-14 15:12
 published: 2017-03-13 14:04
-uuid: f4e7332c-151e-448e-8fad-e74b9e5cae4a
 ---
 [嘸蝦米][boshiamy]從〇到十都是一碼字。取 O 就可以打出<q>〇</q>了。
 
