@@ -1,5 +1,5 @@
-// Locally installed builds of the same typeface before the Google Fonts name,
-// so readers who have it skip the download
+/* Locally installed builds of the same typeface before the Google Fonts name,
+   so readers who have it skip the download */
 :root {
 	--serif-tc: "Noto Serif CJK TC", "Source Han Serif TC", "Noto Serif TC";
 	--serif-sc: "Noto Serif CJK SC", "Source Han Serif SC", "Noto Serif SC";
@@ -18,16 +18,30 @@
 	--cjk-sans: var(--sans-sc), var(--sans-tc);
 }
 
-// font-family inherits as a computed value, so [lang] must redeclare it to
-// pick up its own --cjk-*.  :where() forgives extenders that are invalid there
-// (::placeholder) and zeroes specificity, so the later sans wins.
+/* font-family inherits as a computed value, so [lang] must redeclare it to
+   pick up its own --cjk-*.  Serif is the root face, so every [lang] starts
+   serif; :where() zeroes specificity, so the later sans wins under sans. */
 .serif,
-:where(.serif) [lang] {
+html,
+input,
+select,
+textarea,
+[lang] {
 	font-family: Merriweather, Georgia, "Times New Roman", Times, var(--cjk-serif), serif;
 }
 
 .sans,
-:where(.sans) [lang] {
+::placeholder,
+button,
+.toggle,
+.menu,
+main > nav,
+aside > section > h2,
+.tagcloud > a,
+header :is(h1, h2, h3, h4, h5, h6),
+main > h1,
+article > footer,
+:where(.sans, button, .toggle, .menu, main > nav, aside > section > h2, .tagcloud > a, header :is(h1, h2, h3, h4, h5, h6), main > h1, article > footer) [lang] {
 	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, var(--cjk-sans), sans-serif;
 }
 
@@ -35,7 +49,6 @@ html,
 input,
 select,
 textarea {
-	@extend .serif;
 	color: #1a1a1a;
 	line-height: 1.75;
 }
@@ -81,10 +94,11 @@ blockquote small {
 	display: block;
 	font-size: 1rem;
 	line-height: 1.75;
+}
 
-	&::before {
-		content: "\2014\00a0";
-	}
+blockquote cite::before,
+blockquote small::before {
+	content: "\2014\00a0";
 }
 
 blockquote em,
@@ -146,15 +160,11 @@ q:lang(ja) {
 	quotes: "「" "」" "『" "』";
 }
 
-em%cjk {
+em:lang(zh):not(:lang(zh-Latn)),
+em:lang(ja):not(:lang(ja-Latn)),
+em:lang(ko):not(:lang(ko-Latn)) {
 	-webkit-text-emphasis-style: filled;
 	text-emphasis-style: filled;
-}
-
-:lang(zh):not(:lang(zh-Latn)),
-:lang(ja):not(:lang(ja-Latn)),
-:lang(ko):not(:lang(ko-Latn)) {
-	@extend %cjk;
 }
 
 @supports not (font-synthesis: weight) {
@@ -164,8 +174,12 @@ em%cjk {
 		text-emphasis-position: under right;
 	}
 
-	blockquote%cjk,
-	em%cjk {
+	blockquote:lang(zh):not(:lang(zh-Latn)),
+	blockquote:lang(ja):not(:lang(ja-Latn)),
+	blockquote:lang(ko):not(:lang(ko-Latn)),
+	em:lang(zh):not(:lang(zh-Latn)),
+	em:lang(ja):not(:lang(ja-Latn)),
+	em:lang(ko):not(:lang(ko-Latn)) {
 		font-style: normal;
 	}
 }
