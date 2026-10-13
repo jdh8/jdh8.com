@@ -84,22 +84,22 @@ tags: 橋牌 CSS mdBook
 	<nav class="sidebar">
 		<ol class="chapter">
 			<li><a href="https://polish.club/1C.html">Polish 1<span class="♣">♣</span></a></li>
-			<li><a href="https://polish.club/1D.html">Natural 1<span class="&diams;">&diams;</span></a></li>
-			<li><a class="active" href="https://polish.club/1H.html">Natural 1<span class="&hearts;">&hearts;</span></a></li>
+			<li><a href="https://polish.club/1D.html">Natural 1<span class="\♦">\♦</span></a></li>
+			<li><a class="active" href="https://polish.club/1H.html">Natural 1<span class="\♥">\♥</span></a></li>
 			<li><a href="https://polish.club/1S.html">Natural 1<span class="♠">♠</span></a></li>
 			<li><a href="https://polish.club/1NT.html">1NT</a></li>
 		</ol>
 	</nav>
 	<div class="page">
-		<h2>Natural 1<span class="&hearts;">&hearts;</span></h2>
+		<h2>Natural 1<span class="\♥">\♥</span></h2>
 		<table>
-			<thead><tr><th>1<span class="&hearts;">&hearts;</span> -</th><th></th></tr></thead>
+			<thead><tr><th>1<span class="\♥">\♥</span> -</th><th></th></tr></thead>
 			<tbody>
 				<tr><td>1<span class="♠">♠</span></td><td>F, 4+<span class="♠">♠</span></td></tr>
-				<tr><td>1NT</td><td>NAT NF, 0–3<span class="♠">♠</span>, 0–3<span class="&hearts;">&hearts;</span></td></tr>
-				<tr><td>2<span class="♣">♣</span>!</td><td>(R), FG, 0–3<span class="&hearts;">&hearts;</span>, 0–3<span class="♠">♠</span></td></tr>
-				<tr><td>2<span class="&diams;">&diams;</span>!</td><td>TRF, CONST+ 3+<span class="&hearts;">&hearts;</span></td></tr>
-				<tr><td>2<span class="&hearts;">&hearts;</span></td><td>PRE, 3+<span class="&hearts;">&hearts;</span></td></tr>
+				<tr><td>1NT</td><td>NAT NF, 0–3<span class="♠">♠</span>, 0–3<span class="\♥">\♥</span></td></tr>
+				<tr><td>2<span class="♣">♣</span>!</td><td>(R), FG, 0–3<span class="\♥">\♥</span>, 0–3<span class="♠">♠</span></td></tr>
+				<tr><td>2<span class="\♦">\♦</span>!</td><td>TRF, CONST+ 3+<span class="\♥">\♥</span></td></tr>
+				<tr><td>2<span class="\♥">\♥</span></td><td>PRE, 3+<span class="\♥">\♥</span></td></tr>
 				<tr><td>2<span class="♠">♠</span>!</td><td>PRE, 6+<span class="♠">♠</span></td></tr>
 			</tbody>
 		</table>
