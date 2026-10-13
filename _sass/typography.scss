@@ -1,4 +1,4 @@
-@function --noto-cjk($serif, $langs...) {
+@function noto-cjk($serif, $langs...) {
 	$fonts: ();
 	@each $lang in $langs {
 		$fonts: $fonts, "Noto #{$serif} CJK #{$lang}", "Noto #{$serif} #{$lang}";
@@ -7,14 +7,14 @@
 }
 
 .serif {
-	font-family: Merriweather, Georgia, "Times New Roman", Times, --noto-cjk("Serif", "TC", "SC"), serif;
+	font-family: Merriweather, Georgia, "Times New Roman", Times, noto-cjk("Serif", "TC", "SC"), serif;
 }
 .serif:lang(zh-Hans) {
-	font-family: Merriweather, Georgia, "Times New Roman", Times, --noto-cjk("Serif", "SC", "TC"), serif;
+	font-family: Merriweather, Georgia, "Times New Roman", Times, noto-cjk("Serif", "SC", "TC"), serif;
 }
 
 .sans {
-	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, --noto-cjk("Sans", "TC", "SC"), sans-serif;
+	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, noto-cjk("Sans", "TC", "SC"), sans-serif;
 }
 
 html,
