@@ -5,8 +5,6 @@ tags: 佔領國會 公民行動 太陽花學運
 author: masao
 lang: zh-Hans
 ---
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:,b,900&amp;display=fallback">
-
 > 本文的作者是 Masao Syo，出處已河蟹。感謝[切開提供備份][backup]。
 {: lang="zh-Hant"}
 

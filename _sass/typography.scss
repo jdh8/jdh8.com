@@ -1,20 +1,34 @@
-@function noto-cjk($serif, $langs...) {
-	$fonts: ();
-	@each $lang in $langs {
-		$fonts: $fonts, "Noto #{$serif} CJK #{$lang}", "Noto #{$serif} #{$lang}";
-	}
-	@return $fonts;
+// Locally installed builds of the same typeface before the Google Fonts name,
+// so readers who have it skip the download
+:root {
+	--serif-tc: "Noto Serif CJK TC", "Source Han Serif TC", "Noto Serif TC";
+	--serif-sc: "Noto Serif CJK SC", "Source Han Serif SC", "Noto Serif SC";
+	--sans-tc: "Noto Sans CJK TC", "Source Han Sans TC", "Noto Sans TC";
+	--sans-sc: "Noto Sans CJK SC", "Source Han Sans SC", "Noto Sans SC";
 }
 
-.serif {
-	font-family: Merriweather, Georgia, "Times New Roman", Times, noto-cjk("Serif", "TC", "SC"), serif;
-}
-.serif:lang(zh-Hans) {
-	font-family: Merriweather, Georgia, "Times New Roman", Times, noto-cjk("Serif", "SC", "TC"), serif;
+:root,
+:lang(zh-Hant) {
+	--cjk-serif: var(--serif-tc), var(--serif-sc);
+	--cjk-sans: var(--sans-tc), var(--sans-sc);
 }
 
-.sans {
-	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, noto-cjk("Sans", "TC", "SC"), sans-serif;
+:lang(zh-Hans) {
+	--cjk-serif: var(--serif-sc), var(--serif-tc);
+	--cjk-sans: var(--sans-sc), var(--sans-tc);
+}
+
+// font-family inherits as a computed value, so [lang] must redeclare it to
+// pick up its own --cjk-*.  :where() forgives extenders that are invalid there
+// (::placeholder) and zeroes specificity, so the later sans wins.
+.serif,
+:where(.serif) [lang] {
+	font-family: Merriweather, Georgia, "Times New Roman", Times, var(--cjk-serif), serif;
+}
+
+.sans,
+:where(.sans) [lang] {
+	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, var(--cjk-sans), sans-serif;
 }
 
 html,
