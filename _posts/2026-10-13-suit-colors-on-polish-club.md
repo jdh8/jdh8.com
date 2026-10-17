@@ -34,11 +34,12 @@ tags: 橋牌 CSS mdBook
 
 /* mdBook 本身的側欄與表格樣式，只取需要的部分 */
 @font-face {
-	font-family: "Source Han Suits";
+	font-family: "DejaVu Suits";
 	font-weight: 1 1000;
-	src: url("https://polish.club/fonts/suits-505e1eb1.woff2") format("woff2");
+	font-style: oblique -90deg 90deg;
+	src: url("https://polish.club/fonts/suits-c08cd0c7.woff2") format("woff2");
 }
-.suit-demo { font-family: "Open Sans", "Source Han Suits", sans-serif; }
+.suit-demo { font-family: "Open Sans", "DejaVu Suits", sans-serif; }
 .suit-demo .controls { display: flex; gap: 1em; flex-wrap: wrap; margin-bottom: .5em; }
 .suit-demo .book { display: flex; background: var(--bg); color: var(--fg); }
 .suit-demo .sidebar { background: var(--sidebar-bg); color: var(--sidebar-fg); padding: 1em; flex: none; }
